@@ -1,0 +1,38 @@
+﻿@using FirstControllerProject.Models;
+@model StudentDetails;
+@{
+    //var submitUrl = "Update";
+}
+<style>
+    .input-error {
+        border: 1px solid red !important;
+        box-shadow: 0 0 5px red;
+    }
+</style>
+<form asp-action="UpdateData" method="post">
+    <h2>Edit Students</h2>
+    <span id="errormsg"></span>
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>E-Mail</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input placeholder="Name" asp-for="Name" name="Name" class="form-control" value="@Model.Name" /></td>
+                <td><input placeholder="Age" asp-for="Age" name="Age" class="form-control" type="number" value="@Model.Age" /></td>
+                <td>
+                    <input placeholder="Email" asp-for="Email" name="Email" class="form-control" type="email" value="@Model.Email" />
+                    <input type="hidden" asp-for="Id" value="@Model.Id" />
+                </td>
+                <td><button type="submit" class="btn btn-danger removeRow">Remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="submit" class="btn btn-success" >Update</button>
+    <button type="button" class="btn btn-success" asp-action="Index">Go To Index</button>
+</form>

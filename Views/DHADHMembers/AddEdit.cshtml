@@ -1,0 +1,131 @@
+﻿@using FirstControllerProject.Models;
+@model List<DHADHMembersMaster>;
+@{
+    //var submitUrl = "Create";
+    var conName = ViewBag.Controller;
+    var actionName = ViewBag.Action;
+}
+<style>
+    .input-error {
+        border: 1px solid red !important;
+        box-shadow: 0 0 5px red;
+    }
+</style>
+
+<form asp-action="Create" method="post">
+    <h2>Add Chariot Members</h2>
+    <span id="errormsg"></span>
+    <table id="MemberTable">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Date Of Joining</td>
+                <td>Phone No</td>
+                <td>Address</td>
+                <td>Status</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody>
+            @for (var i = 0; i <= Model.Count - 1; i++)
+            {
+                <tr>
+                    <td><input placeholder="Name" name="[@i].Name" class="form-control" /></td>
+                    <td><input placeholder="Date Of Joining" name="[@i].DateOfJoining" class="form-control" type="date" /></td>
+                    <td><input placeholder="Phone No" name="[@i].PhoneNo" class="form-control" type="number" /></td>
+                    <td><textarea name="[@i]"."Address" placeholder="Address"></textarea></td>
+                    <td><input type="radio" name="[@i]"."Status" Value='A' checked><input type="radio" name="[@i]"."Status" Value='S'></td>
+                    <td><button type="submit" class="btn btn-danger removeRow">Remove</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-secondary" id="addRow">Add Row</button>
+    <button type="button" class="btn btn-success" onclick="saveForm()">Save All</button>
+    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Index", "Chariot")'">
+        Go To Index
+    </button>
+    <input type="hidden" id="RowCount" value="@Model.Count" />
+</form>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    let rowIndex = @Model.Count;
+        $("#addRow").click(function () {
+        let tableBody = document.querySelector("#MemberTable tbody");
+        let newRow = document.createElement("tr");
+
+        newRow.innerHTML = `
+            <td><input name="[${rowIndex}].Name" placeholder="MemberAutoID" class="form-control" /></td>
+            <td><input name="[${rowIndex}].DateOfJoining" placeholder="Date Of Joining" class="form-control" type="date" /></td>
+            <td><input name="[${rowIndex}].PhoneNo" placeholder="Phone No" class="form-control" type="number" /></td>
+            <td><textarea name="[${rowIndex}].Address" placeholder="Address"></textarea></td>
+            <td>
+                <input name="[${rowIndex}]."Status"  class="form-control" type="radio" checked value='A'/>
+                <input name="[${rowIndex}]."Status"  class="form-control" type="radio" value='S'/>
+            </td>
+            <td><button type="button" class="btn btn-danger removeRow">Remove</button></td>
+        `;
+        tableBody.appendChild(newRow);
+        rowIndex++;
+        $("#RowCount").val(rowIndex);
+    });
+      document.addEventListener("click", function (e) {
+        if (e.target && e.target.classList.contains("removeRow")) {
+            e.target.closest("tr").remove();
+        }
+    });
+        function saveForm() {
+            debugger;
+        var row = $("#RowCount").val();
+        const formIds = [
+            { Mandatory: true, id: "Name" },
+            { Mandatory: true,  id: "DateOfJoining" },
+            { Mandatory: true,  id: "PhoneNo" },
+            { Mandatory: false,  id: "Address" }
+        ];
+
+        let isValid = true;
+        $("input").removeClass("input-error");
+        $("#errormsg").html("");
+        let Members =[];
+        for (var r = 0; r < row; r++) {
+            let Member = {};
+            for (let f = 0; f < formIds.length; f++) {
+                let field = formIds[f];
+                if(field.Mandatory)
+                {
+                    let $input = $(`input[name='[${r}].${field.id}']`);
+                let value = $input.val();
+
+                if (value == null || value.trim() === '') {
+                    $input.addClass("input-error"); // highlight input
+                    $("#errormsg").html("Please enter " + field + " in row " + (r + 1));
+                    isValid = false;
+                    break; // stop checking this row
+                }
+                Member[field.id] = value;
+                }
+            }
+            if (!isValid) break; // stop entire loop
+            Members.push(Member);
+        }
+        if(isValid)
+        // ✅ AJAX POST to controller
+        $.ajax({
+            url: "/DHADHMembers/Create",
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(Members),
+            success: function (response) {
+                $("#errormsg").html("Data saved successfully!");
+                window.location.href = "/DHADHMembers/Index";
+            },
+            error: function (xhr) {
+                $("#errormsg").html("Error saving Data.");
+                console.log(xhr.responseText);
+            }
+        });
+        return false;
+    }
+
+</script>

@@ -1,0 +1,140 @@
+﻿@using FirstControllerProject.Models;
+@model List<StudentDetails>;
+@{
+    var submitUrl = "Create";
+    var conName = ViewBag.Controller;
+    var actionName = ViewBag.Action;
+}
+<style>
+    .input-error {
+        border: 1px solid red !important;
+        box-shadow: 0 0 5px red;
+    }
+</style>
+
+<form asp-action="Create" method="post">
+    <h2>Add Mutiple Students</h2>
+    <span id="errormsg"></span>
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>E-Mail</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody>
+            @for(var i = 0;i <= Model.Count - 1;i++)
+            {   
+                <tr>
+                    <td><input placeholder="Name" name="[@i].Name" class="form-control name-autocomplete" autocomplete="off" /></td>
+                    <td><input placeholder="Age" name="[@i].Age" class="form-control email-box" type="number" /></td>
+                    <td><input placeholder="Email" name="[@i].Email" class="form-control" type="email" /></td>
+                    <td><button type="submit" class="btn btn-danger removeRow">Remove</button></td>
+                 </tr>
+            }
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-secondary" id="addRow">Add Row</button>
+    <button type="button" class="btn btn-success" onclick="saveForm()">Save All</button>
+    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Index", "Student")'">
+        Go To Index
+    </button>
+    <input type="hidden" id="RowCount" value="@Model.Count" />
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+<script>
+        $(function () {
+        // Attach autocomplete to all name textboxes
+        $(".name-autocomplete").each(function () {
+            $(this).autocomplete({
+                source: '/Student/SearchEmployee', // Controller action
+                minLength: 1,
+                select: function (event, ui) {
+                    // Fill the selected name
+                    $(this).val(ui.item.value);
+
+                    // Find the email input in the same row and set value
+                    $(this).closest('tr').find('.email-box').val(ui.item.Email);
+
+                    return false;
+                }
+            });
+        });
+
+        // Optional: remove row handler
+        $(document).on('click', '.removeRow', function () {
+            $(this).closest('tr').remove();
+        });
+    });
+
+    let rowIndex = @Model.Count;
+        $("#addRow").click(function () {
+        let tableBody = document.querySelector("#studentsTable tbody");
+        let newRow = document.createElement("tr");
+
+        newRow.innerHTML = `
+            <td><input name="[${rowIndex}].Name" placeholder="Name" class="form-control" /></td>
+            <td><input name="[${rowIndex}].Age" placeholder="Age" class="form-control" type="number" /></td>
+            <td><input name="[${rowIndex}].Email" placeholder="Email" class="form-control" type="email" /></td>
+            <td><button type="button" class="btn btn-danger removeRow">Remove</button></td>
+        `;
+        tableBody.appendChild(newRow);
+        rowIndex++;
+        $("#RowCount").val(rowIndex);
+    });
+      document.addEventListener("click", function (e) {
+        if (e.target && e.target.classList.contains("removeRow")) {
+            e.target.closest("tr").remove();
+        }
+    });
+        function saveForm() {
+            debugger;
+        var row = $("#RowCount").val();
+        const formIds = ["Name", "Age", "Email"];
+        let isValid = true;
+        $("input").removeClass("input-error");
+        $("#errormsg").html("");
+        let students =[];
+        for (var r = 0; r < row; r++) {
+            let student = {};
+            for (let f = 0; f < formIds.length; f++) {
+                let field = formIds[f];
+                let $input = $(`input[name='[${r}].${field}']`);
+                let value = $input.val();
+
+                if (value == null || value.trim() === '') {
+                    $input.addClass("input-error"); // highlight input
+                    $("#errormsg").html("Please enter " + field + " in row " + (r + 1));
+                    isValid = false;
+                    break; // stop checking this row
+                }
+                student[field] = value;
+            }
+            if (!isValid) break; // stop entire loop
+            students.push(student);
+        }
+        if(isValid)
+        // ✅ AJAX POST to controller
+        $.ajax({
+            url: '/Student/Create',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(students),
+            success: function (response) {
+                $("#errormsg").html("Students saved successfully!");
+                 window.location.href = '@Url.Action("Index", "Student")';
+            },
+            error: function (xhr) {
+                $("#errormsg").html("Error saving students.");
+                console.log(xhr.responseText);
+            }
+        });
+        return false;
+    }
+
+</script>

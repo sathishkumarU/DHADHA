@@ -1,0 +1,693 @@
+2025-11-14 19:00:03 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-14 19:00:03 [INF] Now listening on: http://localhost:5236
+2025-11-14 19:00:03 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 19:00:03 [INF] Hosting environment: Development
+2025-11-14 19:00:03 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-14 19:00:06 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-14 19:00:06 [WRN] Failed to determine the https port for redirect.
+2025-11-14 19:00:06 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:00:07 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:00:07 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:00:07 [INF] Executed ViewResult - view Index executed in 684.9845ms.
+2025-11-14 19:00:07 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 732.5387ms
+2025-11-14 19:00:07 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:00:08 [INF] Request starting HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - null null
+2025-11-14 19:00:08 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - null null
+2025-11-14 19:00:08 [INF] Request starting HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-11-14 19:00:08 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 1590.3237ms
+2025-11-14 19:00:08 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\obj\Debug\net8.0\scopedcss\bundle\FirstControllerProject.styles.css'
+2025-11-14 19:00:08 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\css\site.css'
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - 200 1140 text/css 174.1666ms
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 178.9207ms
+2025-11-14 19:00:08 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-11-14 19:00:08 [INF] Request starting HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-11-14 19:00:08 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\js\site.js'
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 49.505ms
+2025-11-14 19:00:08 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 5.4822ms
+2025-11-14 19:00:08 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 116.7278ms
+2025-11-14 19:00:08 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 665.2361ms
+2025-11-14 19:00:08 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-11-14 19:00:08 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 961.0013ms
+2025-11-14 19:00:26 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-14 19:00:26 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:00:26 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:00:26 [INF] Executing RedirectResult, redirecting to /DHADHMembers.
+2025-11-14 19:00:26 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 85.7257ms
+2025-11-14 19:00:26 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:00:26 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 null null 108.7143ms
+2025-11-14 19:00:26 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:00:26 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:00:26 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:00:31 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:00:32 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:00:32 [INF] Executed ViewResult - view Index executed in 134.4937ms.
+2025-11-14 19:00:32 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 5601.8953ms
+2025-11-14 19:00:32 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:00:32 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/clear.png - null null
+2025-11-14 19:00:32 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:00:32 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 0.7423ms
+2025-11-14 19:00:32 [INF] Sending file. Request path: '/Icons/clear.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\clear.png'
+2025-11-14 19:00:32 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/clear.png - 200 11469 image/png 81.9926ms
+2025-11-14 19:00:32 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 200 null text/html; charset=utf-8 5806.4816ms
+2025-11-14 19:00:32 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/edit.png - null null
+2025-11-14 19:00:32 [INF] Sending file. Request path: '/Icons/edit.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\edit.png'
+2025-11-14 19:00:32 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/edit.png - 200 8017 image/png 30.0789ms
+2025-11-14 19:00:42 [INF] Request starting HTTP/1.1 GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-11-14 19:00:42 [INF] Request finished HTTP/1.1 GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 1.8223ms
+2025-11-14 19:00:42 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-11-14 19:00:42 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2025-11-14 19:00:42 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2025-11-14 19:00:42 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2025-11-14 19:00:42 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 449111 text/plain 148.2626ms
+2025-11-14 19:00:42 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2025-11-14 19:00:42 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 69.1069ms
+2025-11-14 19:00:46 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - null null
+2025-11-14 19:00:46 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:00:46 [INF] Route matched with {action = "AddEdit", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEdit() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:00:46 [INF] Executing ViewResult, running view AddEdit.
+2025-11-14 19:00:46 [INF] Executed ViewResult - view AddEdit executed in 15.6395ms.
+2025-11-14 19:00:46 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject) in 18.8702ms
+2025-11-14 19:00:46 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:00:46 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - 200 null text/html; charset=utf-8 24.4475ms
+2025-11-14 19:00:46 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:00:46 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 1.0281ms
+2025-11-14 19:00:46 [INF] Request starting HTTP/1.1 GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-11-14 19:00:46 [INF] Request finished HTTP/1.1 GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 1.9654ms
+2025-11-14 19:00:46 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-11-14 19:01:09 [INF] Request starting HTTP/1.1 POST http://localhost:5236/DHADHMembers/Create - application/json 69
+2025-11-14 19:01:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject)'
+2025-11-14 19:01:09 [INF] Route matched with {action = "Create", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(System.Collections.Generic.List`1[FirstControllerProject.Models.DHADHMembersMaster]) on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:01:30 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "DHADHA"."DHADHMembersMaster" AS d)
+2025-11-14 19:01:32 [INF] Executed DbCommand (565ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT max(d."MembersMasterAutoId")
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:06:57 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-14 19:06:58 [INF] Now listening on: http://localhost:5236
+2025-11-14 19:06:58 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 19:06:58 [INF] Hosting environment: Development
+2025-11-14 19:06:58 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-14 19:06:59 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-14 19:06:59 [WRN] Failed to determine the https port for redirect.
+2025-11-14 19:06:59 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:06:59 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:06:59 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:07:00 [INF] Executed ViewResult - view Index executed in 616.6271ms.
+2025-11-14 19:07:00 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 634.1299ms
+2025-11-14 19:07:00 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 1329.1773ms
+2025-11-14 19:07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 8.7627ms
+2025-11-14 19:07:46 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-14 19:07:46 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:07:46 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:07:46 [INF] Executing RedirectResult, redirecting to /DHADHMembers.
+2025-11-14 19:07:46 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 84.3223ms
+2025-11-14 19:07:46 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:07:46 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 null null 102.5787ms
+2025-11-14 19:07:46 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:07:46 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:07:46 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:07:49 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:07:49 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:07:49 [INF] Executed ViewResult - view Index executed in 106.5081ms.
+2025-11-14 19:07:49 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 2892.5964ms
+2025-11-14 19:07:49 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:07:49 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 200 null text/html; charset=utf-8 2920.6336ms
+2025-11-14 19:07:49 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:07:49 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 1.2268ms
+2025-11-14 19:07:54 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - null null
+2025-11-14 19:07:54 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:07:54 [INF] Route matched with {action = "AddEdit", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEdit() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:07:54 [INF] Executing ViewResult, running view AddEdit.
+2025-11-14 19:07:54 [INF] Executed ViewResult - view AddEdit executed in 26.1766ms.
+2025-11-14 19:07:54 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject) in 29.1402ms
+2025-11-14 19:07:54 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:07:54 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - 200 null text/html; charset=utf-8 34.3747ms
+2025-11-14 19:07:54 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:07:54 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 0.3567ms
+2025-11-14 19:07:59 [INF] Request starting HTTP/1.1 POST http://localhost:5236/DHADHMembers/Create - application/json 61
+2025-11-14 19:07:59 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject)'
+2025-11-14 19:07:59 [INF] Route matched with {action = "Create", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(System.Collections.Generic.List`1[FirstControllerProject.Models.DHADHMembersMaster]) on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:08:07 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "DHADHA"."DHADHMembersMaster" AS d)
+2025-11-14 19:08:07 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT max(d."MembersMasterAutoId")
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:11:45 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-14 19:11:46 [INF] Now listening on: http://localhost:5236
+2025-11-14 19:11:46 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 19:11:46 [INF] Hosting environment: Development
+2025-11-14 19:11:46 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-14 19:11:49 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-14 19:11:49 [WRN] Failed to determine the https port for redirect.
+2025-11-14 19:11:49 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:11:49 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:11:49 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:11:50 [INF] Executed ViewResult - view Index executed in 688.8646ms.
+2025-11-14 19:11:50 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 713.9041ms
+2025-11-14 19:11:50 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:11:50 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 1220.8317ms
+2025-11-14 19:11:50 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:11:50 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 6.0815ms
+2025-11-14 19:11:59 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-14 19:11:59 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:11:59 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:12:00 [INF] Executing RedirectResult, redirecting to /DHADHMembers.
+2025-11-14 19:12:00 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 1772.3934ms
+2025-11-14 19:12:00 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:12:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 null null 1956.7243ms
+2025-11-14 19:12:01 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:12:01 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:12:01 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:12:03 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:12:03 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:12:03 [INF] Executed ViewResult - view Index executed in 98.9145ms.
+2025-11-14 19:12:03 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 2318.8432ms
+2025-11-14 19:12:03 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:12:03 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 200 null text/html; charset=utf-8 2347.4551ms
+2025-11-14 19:12:03 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:12:03 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 1.8553ms
+2025-11-14 19:12:07 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - null null
+2025-11-14 19:12:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:12:07 [INF] Route matched with {action = "AddEdit", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEdit() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:12:07 [INF] Executing ViewResult, running view AddEdit.
+2025-11-14 19:12:07 [INF] Executed ViewResult - view AddEdit executed in 23.2295ms.
+2025-11-14 19:12:07 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject) in 25.8891ms
+2025-11-14 19:12:07 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:12:07 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - 200 null text/html; charset=utf-8 30.5055ms
+2025-11-14 19:12:07 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:12:07 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 0.3115ms
+2025-11-14 19:12:12 [INF] Request starting HTTP/1.1 POST http://localhost:5236/DHADHMembers/Create - application/json 62
+2025-11-14 19:12:12 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject)'
+2025-11-14 19:12:12 [INF] Route matched with {action = "Create", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(System.Collections.Generic.List`1[FirstControllerProject.Models.DHADHMembersMaster]) on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:12:17 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "DHADHA"."DHADHMembersMaster" AS d)
+2025-11-14 19:12:17 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT max(d."MembersMasterAutoId")
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:12:32 [ERR] Failed executing DbCommand (11ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = DateTime), @p5='?', @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "DHADHA"."DHADHMembersMaster" ("MembersMasterAutoId", "Address", "CreatedBy", "CreatedDate", "DateOfJoining", "LastUpdateBy", "LastUpdateDate", "Name", "PhoneNo", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2025-11-14 19:12:32 [ERR] An exception occurred in the database while saving changes for context type 'FirstControllerProject.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-11-14 19:22:22 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-14 19:22:23 [INF] Now listening on: http://localhost:5236
+2025-11-14 19:22:23 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 19:22:23 [INF] Hosting environment: Development
+2025-11-14 19:22:23 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-14 19:22:23 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-14 19:22:23 [WRN] Failed to determine the https port for redirect.
+2025-11-14 19:22:24 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:22:24 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:22:24 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:22:25 [INF] Executed ViewResult - view Index executed in 648.4156ms.
+2025-11-14 19:22:25 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 709.2404ms
+2025-11-14 19:22:25 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:22:25 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 1563.3116ms
+2025-11-14 19:22:25 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:22:25 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 9.9999ms
+2025-11-14 19:22:56 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-14 19:22:56 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:22:56 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:22:56 [INF] Executing RedirectResult, redirecting to /DHADHMembers.
+2025-11-14 19:22:56 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 106.5739ms
+2025-11-14 19:22:56 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:22:56 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 null null 129.7375ms
+2025-11-14 19:22:56 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:22:56 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:22:56 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:22:59 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:22:59 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:22:59 [INF] Executed ViewResult - view Index executed in 97.5504ms.
+2025-11-14 19:22:59 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 2780.9211ms
+2025-11-14 19:22:59 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:22:59 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 200 null text/html; charset=utf-8 2808.7226ms
+2025-11-14 19:22:59 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:22:59 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 1.5403ms
+2025-11-14 19:23:02 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - null null
+2025-11-14 19:23:02 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:23:02 [INF] Route matched with {action = "AddEdit", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEdit() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:23:02 [INF] Executing ViewResult, running view AddEdit.
+2025-11-14 19:23:02 [INF] Executed ViewResult - view AddEdit executed in 16.3716ms.
+2025-11-14 19:23:02 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject) in 18.8546ms
+2025-11-14 19:23:02 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:23:02 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - 200 null text/html; charset=utf-8 27.88ms
+2025-11-14 19:23:02 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:23:02 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 1.3239ms
+2025-11-14 19:23:10 [INF] Request starting HTTP/1.1 POST http://localhost:5236/DHADHMembers/Create - application/json 65
+2025-11-14 19:23:10 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject)'
+2025-11-14 19:23:10 [INF] Route matched with {action = "Create", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(System.Collections.Generic.List`1[FirstControllerProject.Models.DHADHMembersMaster]) on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:23:20 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "DHADHA"."DHADHMembersMaster" AS d)
+2025-11-14 19:23:20 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT max(d."MembersMasterAutoId")
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:23:28 [INF] Executed DbCommand (103ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = DateTime), @p5='?', @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "DHADHA"."DHADHMembersMaster" ("MembersMasterAutoId", "Address", "CreatedBy", "CreatedDate", "DateOfJoining", "LastUpdateBy", "LastUpdateDate", "Name", "PhoneNo", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2025-11-14 19:23:59 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-14 19:23:59 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject) in 48594.6344ms
+2025-11-14 19:23:59 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject)'
+2025-11-14 19:23:59 [INF] Request finished HTTP/1.1 POST http://localhost:5236/DHADHMembers/Create - 200 null application/json; charset=utf-8 48600.0666ms
+2025-11-14 19:23:59 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/Index - null null
+2025-11-14 19:23:59 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:23:59 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:24:02 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:24:02 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Column 'Address' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Column 'Address' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-14 19:24:13 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 13961.6172ms
+2025-11-14 19:24:13 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:24:13 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Column 'Address' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembers.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersController.cs:line 19
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-14 19:24:13 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/Index - 500 null text/html; charset=utf-8 14049.1789ms
+2025-11-14 19:24:13 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:24:13 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 2.0456ms
+2025-11-14 19:39:24 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-14 19:39:25 [INF] Now listening on: http://localhost:5236
+2025-11-14 19:39:25 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 19:39:25 [INF] Hosting environment: Development
+2025-11-14 19:39:25 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-14 19:39:25 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-14 19:39:26 [WRN] Failed to determine the https port for redirect.
+2025-11-14 19:39:26 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:39:26 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:39:26 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:39:27 [INF] Executed ViewResult - view Index executed in 633.4892ms.
+2025-11-14 19:39:27 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 676.0857ms
+2025-11-14 19:39:27 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:39:27 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 1179.2953ms
+2025-11-14 19:39:27 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:39:27 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 18.0736ms
+2025-11-14 19:39:39 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-14 19:39:39 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:39:39 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:39:39 [INF] Executing RedirectResult, redirecting to /DHADHMembers.
+2025-11-14 19:39:39 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 70.8949ms
+2025-11-14 19:39:39 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:39:39 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 null null 100.1211ms
+2025-11-14 19:39:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:39:39 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:39:39 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:39:41 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:39:41 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Column 'CreatedBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Column 'CreatedBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-14 19:39:49 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 9577.3945ms
+2025-11-14 19:39:49 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:39:49 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Column 'CreatedBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembers.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersController.cs:line 19
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-14 19:39:49 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 500 null text/html; charset=utf-8 9730.8258ms
+2025-11-14 19:39:49 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:39:49 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 1.1477ms
+2025-11-14 19:44:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:44:00 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:44:00 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:44:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:44:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Column 'LastUpdateBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Column 'LastUpdateBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-14 19:44:05 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 5697.574ms
+2025-11-14 19:44:05 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:44:05 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Column 'LastUpdateBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method37(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembers.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersController.cs:line 19
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-14 19:44:05 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 500 null text/html; charset=utf-8 5751.6551ms
+2025-11-14 19:44:06 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:44:06 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 6.7325ms
+2025-11-14 19:44:06 [INF] Request starting HTTP/1.1 GET http://localhost:5236/favicon.ico - null null
+2025-11-14 19:44:06 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\favicon.ico'
+2025-11-14 19:44:06 [INF] Request finished HTTP/1.1 GET http://localhost:5236/favicon.ico - 200 5430 image/x-icon 217.4575ms
+2025-11-14 19:44:38 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:44:38 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:44:38 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:44:38 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:44:39 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:44:39 [INF] Executed ViewResult - view Index executed in 401.4332ms.
+2025-11-14 19:44:39 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 519.9486ms
+2025-11-14 19:44:39 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 200 null text/html; charset=utf-8 523.7959ms
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\css\site.css'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 16.6324ms
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - null null
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\obj\Debug\net8.0\scopedcss\bundle\FirstControllerProject.styles.css'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - 200 1140 text/css 35.7076ms
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/clear.png - null null
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/edit.png - null null
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - null null
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/Icons/clear.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\clear.png'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/clear.png - 200 11469 image/png 64.3462ms
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/Icons/edit.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\edit.png'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/edit.png - 200 8017 image/png 64.8424ms
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\js\site.js'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 10.3337ms
+2025-11-14 19:44:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 0.2786ms
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 206.6312ms
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 420.8546ms
+2025-11-14 19:44:39 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-11-14 19:44:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 503.9784ms
+2025-11-14 19:44:40 [INF] Request starting HTTP/1.1 GET http://localhost:5236/favicon.ico - null null
+2025-11-14 19:44:40 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\favicon.ico'
+2025-11-14 19:44:40 [INF] Request finished HTTP/1.1 GET http://localhost:5236/favicon.ico - 200 5430 image/x-icon 2.8829ms
+2025-11-14 19:45:43 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-14 19:45:44 [INF] Now listening on: http://localhost:5236
+2025-11-14 19:45:44 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 19:45:44 [INF] Hosting environment: Development
+2025-11-14 19:45:44 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-14 19:45:44 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-14 19:45:44 [WRN] Failed to determine the https port for redirect.
+2025-11-14 19:45:44 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:45:44 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:45:44 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:45:45 [INF] Executed ViewResult - view Index executed in 681.0639ms.
+2025-11-14 19:45:45 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 714.9612ms
+2025-11-14 19:45:45 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:45:45 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 988.6834ms
+2025-11-14 19:45:45 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:45:45 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 5.9892ms
+2025-11-14 19:45:50 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-14 19:45:50 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:45:50 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:45:51 [INF] Executing RedirectResult, redirecting to /DHADHMembers.
+2025-11-14 19:45:51 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 88.849ms
+2025-11-14 19:45:51 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:45:51 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 null null 114.1232ms
+2025-11-14 19:45:51 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:45:51 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:45:51 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:45:52 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:45:52 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:45:53 [INF] Executed ViewResult - view Index executed in 113.4014ms.
+2025-11-14 19:45:53 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 2061.0474ms
+2025-11-14 19:45:53 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:45:53 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 200 null text/html; charset=utf-8 2088.8487ms
+2025-11-14 19:45:53 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:45:53 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 3.7143ms
+2025-11-14 19:45:55 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - null null
+2025-11-14 19:45:55 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:45:55 [INF] Route matched with {action = "AddEdit", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEdit() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:45:55 [INF] Executing ViewResult, running view AddEdit.
+2025-11-14 19:45:55 [INF] Executed ViewResult - view AddEdit executed in 15.2883ms.
+2025-11-14 19:45:55 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject) in 18.138ms
+2025-11-14 19:45:55 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:45:55 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - 200 null text/html; charset=utf-8 26.2707ms
+2025-11-14 19:45:55 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:45:55 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 2.0689ms
+2025-11-14 19:46:41 [INF] Request starting HTTP/1.1 GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-11-14 19:46:41 [INF] Request finished HTTP/1.1 GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 8.6333ms
+2025-11-14 19:46:41 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5236/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-11-14 19:48:10 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-14 19:48:11 [INF] Now listening on: http://localhost:5236
+2025-11-14 19:48:11 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 19:48:11 [INF] Hosting environment: Development
+2025-11-14 19:48:11 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-14 19:48:12 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-14 19:48:12 [WRN] Failed to determine the https port for redirect.
+2025-11-14 19:48:12 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:48:12 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:48:12 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:48:13 [INF] Executed ViewResult - view Index executed in 612.8409ms.
+2025-11-14 19:48:13 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 645.5453ms
+2025-11-14 19:48:13 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-14 19:48:13 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 980.735ms
+2025-11-14 19:48:13 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:48:13 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 6.4204ms
+2025-11-14 19:48:17 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-14 19:48:17 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:48:17 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-14 19:48:17 [INF] Executing RedirectResult, redirecting to /DHADHMembers.
+2025-11-14 19:48:17 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 89.3851ms
+2025-11-14 19:48:17 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-14 19:48:17 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 null null 119.249ms
+2025-11-14 19:48:17 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers - null null
+2025-11-14 19:48:17 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:48:17 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:48:19 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:48:19 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:48:20 [INF] Executed ViewResult - view Index executed in 259.8861ms.
+2025-11-14 19:48:20 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 2308.7242ms
+2025-11-14 19:48:20 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:48:20 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers - 200 null text/html; charset=utf-8 2380.5718ms
+2025-11-14 19:48:20 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:48:20 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 0.6361ms
+2025-11-14 19:48:21 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - null null
+2025-11-14 19:48:21 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:48:21 [INF] Route matched with {action = "AddEdit", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEdit() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:48:21 [INF] Executing ViewResult, running view AddEdit.
+2025-11-14 19:48:21 [INF] Executed ViewResult - view AddEdit executed in 17.717ms.
+2025-11-14 19:48:21 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject) in 23.4367ms
+2025-11-14 19:48:21 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.AddEdit (FirstControllerProject)'
+2025-11-14 19:48:21 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/AddEdit - 200 null text/html; charset=utf-8 27.2758ms
+2025-11-14 19:48:21 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:48:21 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 2.8426ms
+2025-11-14 19:48:28 [INF] Request starting HTTP/1.1 POST http://localhost:5236/DHADHMembers/Create - application/json 70
+2025-11-14 19:48:28 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject)'
+2025-11-14 19:48:28 [INF] Route matched with {action = "Create", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(System.Collections.Generic.List`1[FirstControllerProject.Models.DHADHMembersMaster]) on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:48:34 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "DHADHA"."DHADHMembersMaster" AS d)
+2025-11-14 19:48:34 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT max(d."MembersMasterAutoId")
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:48:34 [INF] Executed DbCommand (29ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = DateTime), @p5='?', @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "DHADHA"."DHADHMembersMaster" ("MembersMasterAutoId", "Address", "CreatedBy", "CreatedDate", "DateOfJoining", "LastUpdateBy", "LastUpdateDate", "Name", "PhoneNo", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2025-11-14 19:48:34 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-14 19:48:34 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject) in 5874.3846ms
+2025-11-14 19:48:34 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Create (FirstControllerProject)'
+2025-11-14 19:48:34 [INF] Request finished HTTP/1.1 POST http://localhost:5236/DHADHMembers/Create - 200 null application/json; charset=utf-8 5879.8513ms
+2025-11-14 19:48:34 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembers/Index - null null
+2025-11-14 19:48:34 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:48:34 [INF] Route matched with {action = "Index", controller = "DHADHMembers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembers (FirstControllerProject).
+2025-11-14 19:48:34 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."MembersMasterAutoId", d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-14 19:48:34 [INF] Executing ViewResult, running view Index.
+2025-11-14 19:48:34 [INF] Executed ViewResult - view Index executed in 7.6127ms.
+2025-11-14 19:48:34 [INF] Executed action FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject) in 49.5776ms
+2025-11-14 19:48:34 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembers.Index (FirstControllerProject)'
+2025-11-14 19:48:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembers/Index - 200 null text/html; charset=utf-8 50.9509ms
+2025-11-14 19:48:34 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-14 19:48:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 2.4208ms

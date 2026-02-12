@@ -1,0 +1,114 @@
+﻿@using FirstControllerProject.Models;
+@model List<Chariot>;
+@{
+    //var submitUrl = "Create";
+    var conName = ViewBag.Controller;
+    var actionName = ViewBag.Action;
+}
+<style>
+    .input-error {
+        border: 1px solid red !important;
+        box-shadow: 0 0 5px red;
+    }
+</style>
+
+<form asp-action="Create" method="post">
+    <h2>Add Chariot Members</h2>
+    <span id="errormsg"></span>
+    <table id="ChariotTable">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Amount</td>
+                <td>Amount Received Date</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody>
+            @for (var i = 0; i <= Model.Count - 1; i++)
+            {
+                <tr>
+                    <td><input placeholder="Name" name="[@i].MemberAutoID" class="form-control" /></td>
+                    <td><input placeholder="Amount" name="[@i].Amount" class="form-control" type="number" /></td>
+                    <td><input placeholder="Date" name="[@i].AmtReceivedDate" class="form-control" type="date" /></td>
+                    <td><button type="submit" class="btn btn-danger removeRow">Remove</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-secondary" id="addRow">Add Row</button>
+    <button type="button" class="btn btn-success" onclick="saveForm()">Save All</button>
+    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Index", "Chariot")'">
+        Go To Index
+    </button>
+    <input type="hidden" id="RowCount" value="@Model.Count" />
+</form>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    let rowIndex = @Model.Count;
+        $("#addRow").click(function () {
+        let tableBody = document.querySelector("#ChariotTable tbody");
+        let newRow = document.createElement("tr");
+
+        newRow.innerHTML = `
+            <td><input name="[${rowIndex}].Name" placeholder="MemberAutoID" class="form-control" /></td>
+            <td><input name="[${rowIndex}].Age" placeholder="Amount" class="form-control" type="number" /></td>
+            <td><input name="[${rowIndex}].Email" placeholder="AmtReceivedDate" class="form-control" type="date" /></td>
+            <td><button type="button" class="btn btn-danger removeRow">Remove</button></td>
+        `;
+        tableBody.appendChild(newRow);
+        rowIndex++;
+        $("#RowCount").val(rowIndex);
+    });
+      document.addEventListener("click", function (e) {
+        if (e.target && e.target.classList.contains("removeRow")) {
+            e.target.closest("tr").remove();
+        }
+    });
+        function saveForm() {
+            debugger;
+        var row = $("#RowCount").val();
+        const formIds = ["MemberAutoID", "Amount", "AmtReceivedDate"];
+        let isValid = true;
+        $("input").removeClass("input-error");
+        $("#errormsg").html("");
+        let Chariots =[];
+        for (var r = 0; r < row; r++) {
+            let Chariot = {};
+            for (let f = 0; f < formIds.length; f++) {
+                let field = formIds[f];
+                let $input = $(`input[name='[${r}].${field}']`);
+                let value = $input.val();
+
+                if (value == null || value.trim() === '') {
+                    $input.addClass("input-error"); // highlight input
+                    $("#errormsg").html("Please enter " + field + " in row " + (r + 1));
+                    isValid = false;
+                    break; // stop checking this row
+                }
+                Chariot[field] = value;
+            }
+            if (!isValid) break; // stop entire loop
+            Chariots.push(Chariot);
+        }
+        if(isValid)
+        // ✅ AJAX POST to controller
+        $.ajax({
+            url: '/Chariot/Create',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(Chariots),
+            success: function (response) {
+                $("#errormsg").html("Chariots saved successfully!");
+                window.location.href = "/@conName/@actionName";
+
+            },
+            error: function (xhr) {
+                $("#errormsg").html("Error saving Chariots.");
+                console.log(xhr.responseText);
+            }
+        });
+        return false;
+    }
+
+</script>

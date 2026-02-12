@@ -1,0 +1,26 @@
+﻿@model FirstControllerProject.Models.Login
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="login-container" style="max-width:400px;margin:auto;padding:20px;border:1px solid #ddd;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,0.1);margin-top:50px;">
+    <h2 style="text-align:center;">Login</h2>
+
+    @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+    {
+        <div class="form-group">
+            @Html.LabelFor(m => m.Username)
+            @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Enter Username" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Enter Password" })
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block" style="width:100%;margin-top:15px;">Login</button>
+    }
+
+    <p style="color:red;text-align:center;margin-top:10px;">@ViewBag.Message</p>
+</div>

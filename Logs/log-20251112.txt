@@ -1,0 +1,691 @@
+2025-11-12 18:56:20 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-12 18:56:20 [INF] Now listening on: http://localhost:5236
+2025-11-12 18:56:20 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 18:56:20 [INF] Hosting environment: Development
+2025-11-12 18:56:20 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-12 18:56:22 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-12 18:56:22 [WRN] Failed to determine the https port for redirect.
+2025-11-12 18:56:22 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 18:56:22 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 18:56:23 [INF] Executing ViewResult, running view Index.
+2025-11-12 18:56:23 [INF] Executed ViewResult - view Index executed in 900.6308ms.
+2025-11-12 18:56:23 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 927.9467ms
+2025-11-12 18:56:23 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 18:56:23 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 1476.1243ms
+2025-11-12 18:56:24 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-11-12 18:56:24 [INF] Request starting HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-11-12 18:56:24 [INF] Request starting HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - null null
+2025-11-12 18:56:24 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - null null
+2025-11-12 18:56:24 [INF] Request starting HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-11-12 18:56:24 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-11-12 18:56:24 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\css\site.css'
+2025-11-12 18:56:24 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\obj\Debug\net8.0\scopedcss\bundle\FirstControllerProject.styles.css'
+2025-11-12 18:56:24 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\js\site.js'
+2025-11-12 18:56:24 [INF] Request finished HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - 200 1140 text/css 149.3511ms
+2025-11-12 18:56:24 [INF] Request finished HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 12.2461ms
+2025-11-12 18:56:24 [INF] Request finished HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 200.5064ms
+2025-11-12 18:56:24 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-11-12 18:56:24 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 240.4439ms
+2025-11-12 18:56:24 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-11-12 18:56:24 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 514.5408ms
+2025-11-12 18:56:24 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-11-12 18:56:24 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 692.7162ms
+2025-11-12 18:56:25 [INF] Request starting HTTP/1.1 GET http://localhost:5236/favicon.ico - null null
+2025-11-12 18:56:25 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\favicon.ico'
+2025-11-12 18:56:25 [INF] Request finished HTTP/1.1 GET http://localhost:5236/favicon.ico - 200 5430 image/x-icon 106.456ms
+2025-11-12 18:56:42 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 207
+2025-11-12 18:56:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:56:42 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 18:56:42 [INF] Executing ViewResult, running view Login.
+2025-11-12 18:56:42 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Login/Login.cshtml","/Views/Shared/Login.cshtml"]
+2025-11-12 18:56:42 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 62.292ms
+2025-11-12 18:56:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:56:42 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Login/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 18:56:42 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 500 null text/html; charset=utf-8 237.7961ms
+2025-11-12 18:56:49 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 207
+2025-11-12 18:56:49 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:56:49 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 18:56:49 [INF] Executing ViewResult, running view Login.
+2025-11-12 18:56:49 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Login/Login.cshtml","/Views/Shared/Login.cshtml"]
+2025-11-12 18:56:49 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 4.7466ms
+2025-11-12 18:56:49 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:56:49 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Login/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 18:56:49 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 500 null text/html; charset=utf-8 16.225ms
+2025-11-12 18:57:33 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-12 18:57:33 [INF] Now listening on: http://localhost:5236
+2025-11-12 18:57:33 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 18:57:33 [INF] Hosting environment: Development
+2025-11-12 18:57:33 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-12 18:57:35 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-12 18:57:35 [WRN] Failed to determine the https port for redirect.
+2025-11-12 18:57:35 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 18:57:35 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 18:57:35 [INF] Executing ViewResult, running view Index.
+2025-11-12 18:57:35 [INF] Executed ViewResult - view Index executed in 498.4328ms.
+2025-11-12 18:57:35 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 538.9576ms
+2025-11-12 18:57:35 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 18:57:35 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 730.9346ms
+2025-11-12 18:57:40 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 207
+2025-11-12 18:57:40 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:57:40 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 18:57:40 [INF] Executing ViewResult, running view Login.
+2025-11-12 18:57:40 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Login/Login.cshtml","/Views/Shared/Login.cshtml"]
+2025-11-12 18:57:40 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 101.1653ms
+2025-11-12 18:57:40 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:57:40 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Login/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 18:57:40 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 500 null text/html; charset=utf-8 276.1084ms
+2025-11-12 18:57:51 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-12 18:57:51 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:57:51 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 18:58:07 [INF] Executing RedirectResult, redirecting to /DHADHMembersMaster.
+2025-11-12 18:58:07 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 15712.3594ms
+2025-11-12 18:58:07 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 18:58:07 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 0 null 15719.2462ms
+2025-11-12 18:58:07 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 18:58:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 18:58:07 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 18:58:28 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 18:58:28 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Column 'CreatedBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Column 'CreatedBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-12 18:58:37 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 29746.3012ms
+2025-11-12 18:58:37 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 18:58:37 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Column 'CreatedBy' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembersMaster.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 18:58:37 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 500 null text/html; charset=utf-8 29846.6464ms
+2025-11-12 19:02:26 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 19:02:26 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:02:26 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 19:02:39 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 19:02:39 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Column 'CreatedDate' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Column 'CreatedDate' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-12 19:03:45 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 79467.8673ms
+2025-11-12 19:03:45 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:03:45 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Column 'CreatedDate' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembersMaster.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 19:03:45 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 500 null text/html; charset=utf-8 79589.3096ms
+2025-11-12 19:03:47 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 19:03:47 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:03:47 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 19:03:50 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 19:03:50 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Column 'LastUpdateDate' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Column 'LastUpdateDate' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-12 19:04:24 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 37389.7981ms
+2025-11-12 19:04:24 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:04:24 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Column 'LastUpdateDate' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembersMaster.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 19:04:24 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 500 null text/html; charset=utf-8 37431.6402ms
+2025-11-12 19:04:29 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 19:04:29 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:04:29 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 19:04:33 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 19:04:33 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Reading as 'System.Int32' is not supported for fields having DataTypeName 'character varying'
+   at Npgsql.Internal.AdoSerializerHelpers.<GetTypeInfoForReading>g__ThrowReadingNotSupported|0_0(Type type, PgSerializerOptions options, PgTypeId pgTypeId, Exception inner)
+   at Npgsql.Internal.AdoSerializerHelpers.GetTypeInfoForReading(Type type, PgTypeId pgTypeId, PgSerializerOptions options)
+   at Npgsql.BackendMessages.FieldDescription.<GetInfoCore>g__GetInfoSlow|51_0(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfoCore(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfo(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.NpgsqlDataReader.<GetInfo>g__Slow|133_0(ColumnInfo& info, PgConverter& converter, Size& bufferRequirement, Boolean& asObject, <>c__DisplayClass133_0&)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetInt32(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Reading as 'System.Int32' is not supported for fields having DataTypeName 'character varying'
+   at Npgsql.Internal.AdoSerializerHelpers.<GetTypeInfoForReading>g__ThrowReadingNotSupported|0_0(Type type, PgSerializerOptions options, PgTypeId pgTypeId, Exception inner)
+   at Npgsql.Internal.AdoSerializerHelpers.GetTypeInfoForReading(Type type, PgTypeId pgTypeId, PgSerializerOptions options)
+   at Npgsql.BackendMessages.FieldDescription.<GetInfoCore>g__GetInfoSlow|51_0(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfoCore(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfo(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.NpgsqlDataReader.<GetInfo>g__Slow|133_0(ColumnInfo& info, PgConverter& converter, Size& bufferRequirement, Boolean& asObject, <>c__DisplayClass133_0&)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetInt32(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-12 19:04:42 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 13173.1038ms
+2025-11-12 19:04:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:04:42 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Reading as 'System.Int32' is not supported for fields having DataTypeName 'character varying'
+   at Npgsql.Internal.AdoSerializerHelpers.<GetTypeInfoForReading>g__ThrowReadingNotSupported|0_0(Type type, PgSerializerOptions options, PgTypeId pgTypeId, Exception inner)
+   at Npgsql.Internal.AdoSerializerHelpers.GetTypeInfoForReading(Type type, PgTypeId pgTypeId, PgSerializerOptions options)
+   at Npgsql.BackendMessages.FieldDescription.<GetInfoCore>g__GetInfoSlow|51_0(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfoCore(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfo(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.NpgsqlDataReader.<GetInfo>g__Slow|133_0(ColumnInfo& info, PgConverter& converter, Size& bufferRequirement, Boolean& asObject, <>c__DisplayClass133_0&)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetInt32(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembersMaster.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 19:04:42 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 500 null text/html; charset=utf-8 13199.4516ms
+2025-11-12 19:04:42 [INF] Request starting HTTP/1.1 GET http://localhost:5236/favicon.ico - null null
+2025-11-12 19:04:42 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\favicon.ico'
+2025-11-12 19:04:42 [INF] Request finished HTTP/1.1 GET http://localhost:5236/favicon.ico - 200 5430 image/x-icon 129.8211ms
+2025-11-12 19:05:30 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-12 19:05:30 [INF] Now listening on: http://localhost:5236
+2025-11-12 19:05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 19:05:30 [INF] Hosting environment: Development
+2025-11-12 19:05:30 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-12 19:05:31 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-12 19:05:31 [WRN] Failed to determine the https port for redirect.
+2025-11-12 19:05:31 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 19:05:31 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 19:05:32 [INF] Executing ViewResult, running view Index.
+2025-11-12 19:05:32 [INF] Executed ViewResult - view Index executed in 603.2892ms.
+2025-11-12 19:05:32 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 644.1995ms
+2025-11-12 19:05:32 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 19:05:32 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 947.3648ms
+2025-11-12 19:06:11 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-12 19:06:11 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 19:06:11 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 19:06:15 [INF] Executing RedirectResult, redirecting to /DHADHMembersMaster.
+2025-11-12 19:06:15 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 4290.0408ms
+2025-11-12 19:06:15 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 19:06:15 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 0 null 4327.2927ms
+2025-11-12 19:06:16 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 19:06:16 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:06:16 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 19:06:21 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."DateOfJoining", d."MembersMasterAutoId", d."Name"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 19:06:25 [INF] Executing ViewResult, running view Index.
+2025-11-12 19:06:25 [ERR] The view 'Index' was not found. Searched locations: ["/Views/DHADHMembersMaster/Index.cshtml","/Views/Shared/Index.cshtml"]
+2025-11-12 19:06:25 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 9780.1199ms
+2025-11-12 19:06:25 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:06:25 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/DHADHMembersMaster/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 19:06:25 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 500 null text/html; charset=utf-8 9936.0396ms
+2025-11-12 19:08:09 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-12 19:08:09 [INF] Now listening on: http://localhost:5236
+2025-11-12 19:08:09 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 19:08:09 [INF] Hosting environment: Development
+2025-11-12 19:08:09 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-12 19:08:10 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-12 19:08:10 [WRN] Failed to determine the https port for redirect.
+2025-11-12 19:08:10 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 19:08:10 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 19:08:10 [INF] Executing ViewResult, running view Index.
+2025-11-12 19:08:11 [INF] Executed ViewResult - view Index executed in 457.8449ms.
+2025-11-12 19:08:11 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 481.7369ms
+2025-11-12 19:08:11 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 19:08:11 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 946.5374ms
+2025-11-12 19:08:39 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-12 19:08:39 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 19:08:39 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 19:08:42 [INF] Executing RedirectResult, redirecting to /DHADHMembersMaster.
+2025-11-12 19:08:42 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 3264.9261ms
+2025-11-12 19:08:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 19:08:42 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 0 null 3286.8145ms
+2025-11-12 19:08:42 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 19:08:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:08:42 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 19:08:48 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."DateOfJoining", d."MembersMasterAutoId", d."Name"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 19:08:53 [INF] Executing ViewResult, running view Index.
+2025-11-12 19:08:53 [INF] Executed ViewResult - view Index executed in 193.9864ms.
+2025-11-12 19:08:53 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 10613.0339ms
+2025-11-12 19:08:53 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 19:08:53 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 200 null text/html; charset=utf-8 10640.8985ms
+2025-11-12 19:08:53 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/edit.png - null null
+2025-11-12 19:08:53 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/clear.png - null null
+2025-11-12 19:08:53 [INF] Sending file. Request path: '/Icons/edit.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\edit.png'
+2025-11-12 19:08:53 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/edit.png - 200 8017 image/png 134.2426ms
+2025-11-12 19:08:53 [INF] Sending file. Request path: '/Icons/clear.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\clear.png'
+2025-11-12 19:08:53 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/clear.png - 200 11469 image/png 136.7124ms
+2025-11-12 20:10:04 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-12 20:10:04 [INF] Now listening on: http://localhost:5236
+2025-11-12 20:10:04 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 20:10:04 [INF] Hosting environment: Development
+2025-11-12 20:10:04 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-12 20:10:06 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-12 20:10:06 [WRN] Failed to determine the https port for redirect.
+2025-11-12 20:10:06 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 20:10:06 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 20:10:06 [INF] Executing ViewResult, running view Index.
+2025-11-12 20:10:07 [INF] Executed ViewResult - view Index executed in 674.7379ms.
+2025-11-12 20:10:07 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 699.5304ms
+2025-11-12 20:10:07 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 20:10:07 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 928.3126ms
+2025-11-12 20:10:41 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-12 20:10:41 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 20:10:41 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 20:10:45 [INF] Executing RedirectResult, redirecting to /DHADHMembersMaster.
+2025-11-12 20:10:45 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 4241.4358ms
+2025-11-12 20:10:45 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 20:10:45 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 0 null 4270.9568ms
+2025-11-12 20:10:45 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 20:10:45 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 20:10:45 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 20:10:48 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 20:10:49 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.InvalidCastException: Reading as 'System.DateTime' is not supported for fields having DataTypeName 'numeric'
+   at Npgsql.Internal.AdoSerializerHelpers.<GetTypeInfoForReading>g__ThrowReadingNotSupported|0_0(Type type, PgSerializerOptions options, PgTypeId pgTypeId, Exception inner)
+   at Npgsql.Internal.AdoSerializerHelpers.GetTypeInfoForReading(Type type, PgTypeId pgTypeId, PgSerializerOptions options)
+   at Npgsql.BackendMessages.FieldDescription.<GetInfoCore>g__GetInfoSlow|51_0(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfoCore(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfo(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.NpgsqlDataReader.<GetInfo>g__Slow|133_0(ColumnInfo& info, PgConverter& converter, Size& bufferRequirement, Boolean& asObject, <>c__DisplayClass133_0&)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Reading as 'System.DateTime' is not supported for fields having DataTypeName 'numeric'
+   at Npgsql.Internal.AdoSerializerHelpers.<GetTypeInfoForReading>g__ThrowReadingNotSupported|0_0(Type type, PgSerializerOptions options, PgTypeId pgTypeId, Exception inner)
+   at Npgsql.Internal.AdoSerializerHelpers.GetTypeInfoForReading(Type type, PgTypeId pgTypeId, PgSerializerOptions options)
+   at Npgsql.BackendMessages.FieldDescription.<GetInfoCore>g__GetInfoSlow|51_0(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfoCore(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfo(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.NpgsqlDataReader.<GetInfo>g__Slow|133_0(ColumnInfo& info, PgConverter& converter, Size& bufferRequirement, Boolean& asObject, <>c__DisplayClass133_0&)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-12 20:17:31 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 406496.8249ms
+2025-11-12 20:17:31 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 20:17:31 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Reading as 'System.DateTime' is not supported for fields having DataTypeName 'numeric'
+   at Npgsql.Internal.AdoSerializerHelpers.<GetTypeInfoForReading>g__ThrowReadingNotSupported|0_0(Type type, PgSerializerOptions options, PgTypeId pgTypeId, Exception inner)
+   at Npgsql.Internal.AdoSerializerHelpers.GetTypeInfoForReading(Type type, PgTypeId pgTypeId, PgSerializerOptions options)
+   at Npgsql.BackendMessages.FieldDescription.<GetInfoCore>g__GetInfoSlow|51_0(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfoCore(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.BackendMessages.FieldDescription.GetInfo(Type type, ColumnInfo& lastColumnInfo)
+   at Npgsql.NpgsqlDataReader.<GetInfo>g__Slow|133_0(ColumnInfo& info, PgConverter& converter, Size& bufferRequirement, Boolean& asObject, <>c__DisplayClass133_0&)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.DHADHAMemberBO.GetAll() in e:\FirstControllerProject\FirstControllerProject\Services\DHADHAMemberBO.cs:line 18
+   at FirstControllerProject.Controllers.DHADHMembersMaster.Index() in e:\FirstControllerProject\FirstControllerProject\Controllers\DHADHMembersMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-12 20:17:31 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 500 null text/html; charset=utf-8 406694.1191ms
+2025-11-12 20:20:15 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-12 20:20:15 [INF] Now listening on: http://localhost:5236
+2025-11-12 20:20:15 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 20:20:15 [INF] Hosting environment: Development
+2025-11-12 20:20:15 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-12 20:20:16 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-12 20:20:16 [WRN] Failed to determine the https port for redirect.
+2025-11-12 20:20:16 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 20:20:16 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 20:20:16 [INF] Executing ViewResult, running view Index.
+2025-11-12 20:20:17 [INF] Executed ViewResult - view Index executed in 690.5874ms.
+2025-11-12 20:20:17 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 725.1034ms
+2025-11-12 20:20:17 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 20:20:17 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 1211.3149ms
+2025-11-12 20:20:56 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-12 20:20:56 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 20:20:56 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 20:21:04 [INF] Executing RedirectResult, redirecting to /DHADHMembersMaster.
+2025-11-12 20:21:04 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 7900.5024ms
+2025-11-12 20:21:04 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 20:21:04 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 0 null 7924.3685ms
+2025-11-12 20:21:04 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 20:21:04 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 20:21:04 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 20:21:07 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 20:21:07 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at Npgsql.Internal.Converters.DecimalNumericConverter`1.ConvertTo(Builder& numeric)
+   at Npgsql.Internal.Converters.DecimalNumericConverter`1.ReadCore(PgReader reader)
+   at Npgsql.Internal.PgBufferedConverter`1.Read(PgReader reader)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetInt32(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Decimal.ToInt32(Decimal d)
+   at Npgsql.Internal.Converters.DecimalNumericConverter`1.ConvertTo(Builder& numeric)
+   at Npgsql.Internal.Converters.DecimalNumericConverter`1.ReadCore(PgReader reader)
+   at Npgsql.Internal.PgBufferedConverter`1.Read(PgReader reader)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetInt32(Int32 ordinal)
+   at lambda_method36(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-11-12 20:26:48 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-12 20:26:49 [INF] Now listening on: http://localhost:5236
+2025-11-12 20:26:49 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 20:26:49 [INF] Hosting environment: Development
+2025-11-12 20:26:49 [INF] Content root path: E:\FirstControllerProject\FirstControllerProject
+2025-11-12 20:26:49 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2025-11-12 20:26:49 [WRN] Failed to determine the https port for redirect.
+2025-11-12 20:26:50 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 20:26:50 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 20:26:50 [INF] Executing ViewResult, running view Index.
+2025-11-12 20:26:50 [INF] Executed ViewResult - view Index executed in 382.7581ms.
+2025-11-12 20:26:50 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 406.7266ms
+2025-11-12 20:26:50 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2025-11-12 20:26:50 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 737.9101ms
+2025-11-12 20:26:58 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2025-11-12 20:26:58 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 20:26:58 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2025-11-12 20:27:09 [INF] Executing RedirectResult, redirecting to /DHADHMembersMaster.
+2025-11-12 20:27:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 10971.7894ms
+2025-11-12 20:27:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2025-11-12 20:27:09 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 0 null 11005.2413ms
+2025-11-12 20:27:09 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 20:27:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 20:27:09 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 20:27:18 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 20:27:20 [INF] Executing ViewResult, running view Index.
+2025-11-12 20:27:21 [INF] Executed ViewResult - view Index executed in 309.3605ms.
+2025-11-12 20:27:21 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 11219.1899ms
+2025-11-12 20:27:21 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 20:27:21 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 200 null text/html; charset=utf-8 11236.9066ms
+2025-11-12 20:28:23 [INF] Request starting HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - null null
+2025-11-12 20:28:23 [INF] Executing endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 20:28:23 [INF] Route matched with {action = "Index", controller = "DHADHMembersMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.DHADHMembersMaster (FirstControllerProject).
+2025-11-12 20:28:33 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Address", d."CreatedBy", d."CreatedDate", d."DateOfJoining", d."LastUpdateBy", d."LastUpdateDate", d."MembersMasterAutoId", d."Name", d."PhoneNo", d."Status"
+FROM "DHADHA"."DHADHMembersMaster" AS d
+2025-11-12 20:28:33 [INF] Executing ViewResult, running view Index.
+2025-11-12 20:28:33 [INF] Executed ViewResult - view Index executed in 6.7692ms.
+2025-11-12 20:28:33 [INF] Executed action FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject) in 9998.095ms
+2025-11-12 20:28:33 [INF] Executed endpoint 'FirstControllerProject.Controllers.DHADHMembersMaster.Index (FirstControllerProject)'
+2025-11-12 20:28:33 [INF] Request finished HTTP/1.1 GET http://localhost:5236/DHADHMembersMaster - 200 null text/html; charset=utf-8 10007.0735ms
+2025-11-12 20:28:33 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-11-12 20:28:33 [INF] Request starting HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-11-12 20:28:33 [INF] Request starting HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - null null
+2025-11-12 20:28:33 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - null null
+2025-11-12 20:28:33 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/edit.png - null null
+2025-11-12 20:28:33 [INF] Request starting HTTP/1.1 GET http://localhost:5236/Icons/clear.png - null null
+2025-11-12 20:28:33 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\obj\Debug\net8.0\scopedcss\bundle\FirstControllerProject.styles.css'
+2025-11-12 20:28:33 [INF] Sending file. Request path: '/Icons/edit.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\edit.png'
+2025-11-12 20:28:33 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/edit.png - 200 8017 image/png 228.0346ms
+2025-11-12 20:28:33 [INF] Request finished HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=ns7_QeberpcsT2t7M-CFvKFg2vIT38dDOofRlvIdsvQ - 200 1140 text/css 394.6301ms
+2025-11-12 20:28:33 [INF] Sending file. Request path: '/Icons/clear.png'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\Icons\clear.png'
+2025-11-12 20:28:33 [INF] Request finished HTTP/1.1 GET http://localhost:5236/Icons/clear.png - 200 11469 image/png 252.5216ms
+2025-11-12 20:28:33 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\css\site.css'
+2025-11-12 20:28:33 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-11-12 20:28:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 431.5727ms
+2025-11-12 20:28:34 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-11-12 20:28:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 445.1565ms
+2025-11-12 20:28:34 [INF] Request starting HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-11-12 20:28:34 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\js\site.js'
+2025-11-12 20:28:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 115.7936ms
+2025-11-12 20:28:34 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-11-12 20:28:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 131.394ms
+2025-11-12 20:28:34 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-11-12 20:28:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 614.0822ms
+2025-11-12 20:28:34 [INF] Request starting HTTP/1.1 GET http://localhost:5236/favicon.ico - null null
+2025-11-12 20:28:34 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'e:\FirstControllerProject\FirstControllerProject\wwwroot\favicon.ico'
+2025-11-12 20:28:34 [INF] Request finished HTTP/1.1 GET http://localhost:5236/favicon.ico - 200 5430 image/x-icon 4.6895ms

@@ -1,0 +1,43 @@
+@using FirstControllerProject.Models;
+@model DHADHMembersMaster
+<form asp-controller="DHADHMembers" asp-action="Update" method="post">
+<table class="table table-bordered" style="width: 50%; margin-top: 20px;">
+    <tr>
+        <th style="width: 30%;">Name</th>
+        <td>
+            <input type="text" name="Name" class="form-control" value="@Model.Name" />
+            <input type="hidden" name="MembersMasterAutoId"  value="@Model.MembersMasterAutoId" />
+        </td>
+    </tr>
+
+    <tr>
+        <th>Date Of Joining</th>
+        <td>
+            <input type="date" name="DateOfJoining" class="form-control" 
+                   value="@(Model.DateOfJoining.ToString("yyyy-MM-dd"))" />
+        </td>
+    </tr>
+
+    <tr>
+        <th>Phone No</th>
+        <td>
+            <input type="text" name="PhoneNo" class="form-control" value="@Model.PhoneNo" />
+        </td>
+    </tr>
+
+    <tr>
+        <th>Address</th>
+        <td>
+            <textarea name="Address" class="form-control" rows="3">@Model.Address</textarea>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" class="text-center">
+            <button type="submit" class="btn btn-primary">Save</button>
+        </td>
+    </tr>
+</table>
+</form>
+
+
