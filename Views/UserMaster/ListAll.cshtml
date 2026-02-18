@@ -7,12 +7,14 @@
     <div class="card shadow">
         <div class="card-header bg-primary text-white">
             <h4>User List</h4>
+            <h4>Add</h4>
         </div>
 
         <div class="card-body">
             <table class="table table-bordered table-striped table-hover">
                 <thead class="table-dark text-center">
                     <tr>
+                        <td>Edit</td>
                         <th>S.No</th>
                         <th>User Name</th>
                         <th>DOB</th>
@@ -25,6 +27,7 @@
                     @foreach (var item in Model)
                     {
                         <tr>
+                            <td></td>
                             <td>@i</td>
                             <td>@item.Name</td>
                             <td>@item.DOB</td>
