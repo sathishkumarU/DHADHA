@@ -8,11 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<ICommonServicescs<StudentDetails>, StudentServices>();
-builder.Services.AddScoped<ICommonServicescs<Chariot>, ChariotsServices>();
-builder.Services.AddScoped<StudentServices>();
-builder.Services.AddScoped<DHADHAMemberBO>();
-
+//builder.Services.AddScoped<ICommonServicescs<StudentDetails>, StudentServices>();
+//builder.Services.AddScoped<ICommonServicescs<Chariot>, ChariotsServices>();
+//builder.Services.AddScoped<StudentServices>();
+//builder.Services.AddScoped<DHADHAMemberBO>();
+builder.Services.AddScoped<IUserMaster,UserService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
 

@@ -1,0 +1,142 @@
+2026-02-18 20:01:23 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-18 20:01:24 [INF] Now listening on: http://localhost:6001
+2026-02-18 20:01:24 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-18 20:01:24 [INF] Hosting environment: Development
+2026-02-18 20:01:24 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/ - null null
+2026-02-18 20:01:24 [WRN] Failed to determine the https port for redirect.
+2026-02-18 20:01:24 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:01:24 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-18 20:01:24 [INF] Executing ViewResult, running view Index.
+2026-02-18 20:01:24 [INF] Executed ViewResult - view Index executed in 189.2527ms.
+2026-02-18 20:01:24 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 205.7561ms
+2026-02-18 20:01:24 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/ - 200 null text/html; charset=utf-8 257.4181ms
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - null null
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - null null
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/lib/jquery/dist/jquery.min.js - null null
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 6.5325ms
+2026-02-18 20:01:24 [INF] Request starting HTTP/1.1 GET http://localhost:6001/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2026-02-18 20:01:24 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2026-02-18 20:01:24 [INF] The file /FirstControllerProject.styles.css was not modified
+2026-02-18 20:01:24 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2026-02-18 20:01:24 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2026-02-18 20:01:24 [INF] The file /css/site.css was not modified
+2026-02-18 20:01:24 [INF] The file /js/site.js was not modified
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 7.1625ms
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 304 null text/javascript 1.2765ms
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - 304 null text/css 9.4746ms
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/lib/jquery/dist/jquery.min.js - 304 null text/javascript 9.5769ms
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - 304 null text/css 7.3232ms
+2026-02-18 20:01:24 [INF] Request finished HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 9.2833ms
+2026-02-18 20:01:29 [INF] Request starting HTTP/1.1 POST http://localhost:6001/Login/Login - application/x-www-form-urlencoded 210
+2026-02-18 20:01:29 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-18 20:01:29 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-18 20:01:37 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-02-18 20:01:37 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 8427.2654ms
+2026-02-18 20:01:37 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-18 20:01:37 [INF] Request finished HTTP/1.1 POST http://localhost:6001/Login/Login - 302 null null 8441.602ms
+2026-02-18 20:01:37 [INF] Request starting HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - null null
+2026-02-18 20:01:37 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-18 20:01:37 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMaster (FirstControllerProject).
+2026-02-18 20:01:41 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserMasterAutoId", u."Address", u."CreatedBy", u."CreatedDate", u."DHStatus", u."DOB", u."DateOfJoin", u."LastUpdate", u."LastUpdateBy", u."Name", u."PhoneNo", u."UniqueId", u."UserId"
+FROM "Common"."UserMaster" AS u
+2026-02-18 20:01:41 [INF] Executing ViewResult, running view ListAll.
+2026-02-18 20:01:41 [INF] Executed ViewResult - view ListAll executed in 4.6355ms.
+2026-02-18 20:01:41 [INF] Executed action FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject) in 3469.2881ms
+2026-02-18 20:01:41 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-18 20:01:41 [INF] Request finished HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - 200 null text/html; charset=utf-8 3478.5093ms
+2026-02-18 20:01:41 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-18 20:01:41 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.6663ms
+2026-02-18 20:08:27 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-18 20:08:27 [INF] Now listening on: http://localhost:6001
+2026-02-18 20:08:27 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-18 20:08:27 [INF] Hosting environment: Development
+2026-02-18 20:08:27 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-18 20:08:27 [INF] Request starting HTTP/1.1 GET http://localhost:6001/ - null null
+2026-02-18 20:08:27 [WRN] Failed to determine the https port for redirect.
+2026-02-18 20:08:27 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:08:27 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-18 20:08:27 [INF] Executing ViewResult, running view Index.
+2026-02-18 20:08:27 [INF] Executed ViewResult - view Index executed in 40.3569ms.
+2026-02-18 20:08:27 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 45.8479ms
+2026-02-18 20:08:27 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:08:27 [INF] Request finished HTTP/1.1 GET http://localhost:6001/ - 200 null text/html; charset=utf-8 97.2294ms
+2026-02-18 20:08:27 [INF] Request starting HTTP/1.1 GET http://localhost:6001/css/login.css - null null
+2026-02-18 20:08:27 [INF] Request starting HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - null null
+2026-02-18 20:08:27 [INF] Request starting HTTP/1.1 GET http://localhost:6001/js/login.js - null null
+2026-02-18 20:08:27 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-18 20:08:27 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 3.1032ms
+2026-02-18 20:08:27 [INF] Request finished HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - 404 0 null 3.5585ms
+2026-02-18 20:08:27 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:6001/images/login-image.jpg, Response status code: 404
+2026-02-18 20:08:27 [INF] Sending file. Request path: '/js/login.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/js/login.js'
+2026-02-18 20:08:27 [INF] Request finished HTTP/1.1 GET http://localhost:6001/js/login.js - 200 515 text/javascript 38.4138ms
+2026-02-18 20:08:27 [INF] Sending file. Request path: '/css/login.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/css/login.css'
+2026-02-18 20:08:27 [INF] Request finished HTTP/1.1 GET http://localhost:6001/css/login.css - 200 1067 text/css 88.754ms
+2026-02-18 20:18:58 [INF] Request starting HTTP/1.1 GET http://localhost:6001/ - null null
+2026-02-18 20:18:58 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:18:58 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-18 20:18:58 [INF] Executing ViewResult, running view Index.
+2026-02-18 20:18:58 [INF] Executed ViewResult - view Index executed in 15.6046ms.
+2026-02-18 20:18:58 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 17.841ms
+2026-02-18 20:18:58 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:18:58 [INF] Request finished HTTP/1.1 GET http://localhost:6001/ - 200 null text/html; charset=utf-8 34.9313ms
+2026-02-18 20:18:58 [INF] Request starting HTTP/1.1 GET http://localhost:6001/css/login.css - null null
+2026-02-18 20:18:58 [INF] Request starting HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - null null
+2026-02-18 20:18:58 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-18 20:18:58 [INF] Request starting HTTP/1.1 GET http://localhost:6001/js/login.js - null null
+2026-02-18 20:18:58 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 1.0829ms
+2026-02-18 20:18:58 [INF] Request finished HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - 404 0 null 35.2532ms
+2026-02-18 20:18:58 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:6001/images/login-image.jpg, Response status code: 404
+2026-02-18 20:18:58 [INF] Sending file. Request path: '/css/login.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/css/login.css'
+2026-02-18 20:18:58 [INF] Request finished HTTP/1.1 GET http://localhost:6001/css/login.css - 200 1325 text/css 38.1678ms
+2026-02-18 20:18:58 [INF] The file /js/login.js was not modified
+2026-02-18 20:18:58 [INF] Request finished HTTP/1.1 GET http://localhost:6001/js/login.js - 304 null text/javascript 12.1409ms
+2026-02-18 20:18:58 [INF] Request starting HTTP/1.1 GET http://localhost:6001/favicon.ico - null null
+2026-02-18 20:18:58 [INF] The file /favicon.ico was not modified
+2026-02-18 20:18:58 [INF] Request finished HTTP/1.1 GET http://localhost:6001/favicon.ico - 304 null image/x-icon 0.6499ms
+2026-02-18 20:18:59 [INF] Request starting HTTP/1.1 GET http://localhost:6001/ - null null
+2026-02-18 20:18:59 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:18:59 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-18 20:18:59 [INF] Executing ViewResult, running view Index.
+2026-02-18 20:18:59 [INF] Executed ViewResult - view Index executed in 1.969ms.
+2026-02-18 20:18:59 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 2.3989ms
+2026-02-18 20:18:59 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:18:59 [INF] Request finished HTTP/1.1 GET http://localhost:6001/ - 200 null text/html; charset=utf-8 3.5368ms
+2026-02-18 20:18:59 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-18 20:18:59 [INF] Request starting HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - null null
+2026-02-18 20:18:59 [INF] Request starting HTTP/1.1 GET http://localhost:6001/css/login.css - null null
+2026-02-18 20:18:59 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3552ms
+2026-02-18 20:18:59 [INF] The file /css/login.css was not modified
+2026-02-18 20:18:59 [INF] Request finished HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - 404 0 null 0.4422ms
+2026-02-18 20:18:59 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:6001/images/login-image.jpg, Response status code: 404
+2026-02-18 20:18:59 [INF] Request finished HTTP/1.1 GET http://localhost:6001/css/login.css - 304 null text/css 0.4997ms
+2026-02-18 20:20:45 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-18 20:20:46 [INF] Now listening on: http://localhost:6001
+2026-02-18 20:20:46 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-18 20:20:46 [INF] Hosting environment: Development
+2026-02-18 20:20:46 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-18 20:20:46 [INF] Request starting HTTP/1.1 GET http://localhost:6001/ - null null
+2026-02-18 20:20:46 [WRN] Failed to determine the https port for redirect.
+2026-02-18 20:20:46 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:20:46 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-18 20:20:46 [INF] Executing ViewResult, running view Index.
+2026-02-18 20:20:46 [INF] Executed ViewResult - view Index executed in 27.1264ms.
+2026-02-18 20:20:46 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 35.0916ms
+2026-02-18 20:20:46 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-18 20:20:46 [INF] Request finished HTTP/1.1 GET http://localhost:6001/ - 200 null text/html; charset=utf-8 65.7814ms
+2026-02-18 20:20:46 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-18 20:20:46 [INF] Request starting HTTP/1.1 GET http://localhost:6001/css/login.css - null null
+2026-02-18 20:20:46 [INF] Request starting HTTP/1.1 GET http://localhost:6001/js/login.js - null null
+2026-02-18 20:20:46 [INF] Request starting HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - null null
+2026-02-18 20:20:46 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 4.1035ms
+2026-02-18 20:20:46 [INF] Request finished HTTP/1.1 GET http://localhost:6001/images/login-image.jpg - 404 0 null 4.7679ms
+2026-02-18 20:20:46 [INF] The file /css/login.css was not modified
+2026-02-18 20:20:46 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:6001/images/login-image.jpg, Response status code: 404
+2026-02-18 20:20:46 [INF] The file /js/login.js was not modified
+2026-02-18 20:20:46 [INF] Request finished HTTP/1.1 GET http://localhost:6001/js/login.js - 304 null text/javascript 6.5939ms
+2026-02-18 20:20:46 [INF] Request finished HTTP/1.1 GET http://localhost:6001/css/login.css - 304 null text/css 7.2616ms

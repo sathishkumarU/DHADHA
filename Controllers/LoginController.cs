@@ -22,7 +22,7 @@ namespace FirstControllerProject.Controllers
                 if (model.Username.ToLower() == "admin" && model.Password == "123")
                 {
                     ViewBag.Message = "Login Successful!";
-                    return RedirectToAction("Index","DHADHMembers");
+                    return RedirectToAction("ListAll","UserMaster");
                 }
                 else
                 {

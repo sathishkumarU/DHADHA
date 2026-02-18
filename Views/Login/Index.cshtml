@@ -1,26 +1,37 @@
-﻿@model FirstControllerProject.Models.Login
+﻿<div class="container-fluid vh-100 gradient-bg">
+    <div class="row h-100">
 
-@{
-    ViewBag.Title = "Login";
-}
+        <!-- LEFT SIDE -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center position-relative">
 
-<div class="login-container" style="max-width:400px;margin:auto;padding:20px;border:1px solid #ddd;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,0.1);margin-top:50px;">
-    <h2 style="text-align:center;">Login</h2>
+            <div class="login-card">
+                <h2 class="text-center mb-4">Welcome Back</h2>
 
-    @using (Html.BeginForm("Login", "Login", FormMethod.Post))
-    {
-        <div class="form-group">
-            @Html.LabelFor(m => m.Username)
-            @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Enter Username" })
+                <form>
+                    <div class="mb-3">
+                        <label>Email</label>
+                        <input type="email" class="form-control custom-input" placeholder="Enter email" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Password</label>
+                        <input type="password" class="form-control custom-input" placeholder="Enter password" />
+                    </div>
+
+                    <button class="btn modern-btn w-100">Login</button>
+                </form>
+            </div>
+
+            <!-- Divider -->
+            <div class="vertical-divider"></div>
+
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(m => m.Password)
-            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Enter Password" })
+        <!-- RIGHT SIDE IMAGE -->
+        <div class="col-md-6 p-0 d-none d-md-block">
+            <img src="~/images/login-image.jpg"
+                 class="img-fluid h-100 w-100 object-fit-cover" />
         </div>
 
-        <button type="submit" class="btn btn-primary btn-block" style="width:100%;margin-top:15px;">Login</button>
-    }
-
-    <p style="color:red;text-align:center;margin-top:10px;">@ViewBag.Message</p>
+    </div>
 </div>

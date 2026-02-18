@@ -8,11 +8,11 @@ public class AppDbContext : DbContext
     public AppDbContext(DbContextOptions<AppDbContext> options)
         : base(options) { }
 
-    public DbSet<DHADHMembersMaster> DHADHMembersMaster => Set<DHADHMembersMaster>();
+    public DbSet<UserMaster> UserMaster => Set<UserMaster>();
     protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Only if this table has no primary key
-            modelBuilder.Entity<DHADHMembersMaster>()
-                .ToTable("DHADHMembersMaster", "DHADHA");
+            modelBuilder.Entity<UserMaster>()
+                .ToTable("UserMaster", "Common");
         }
 }

@@ -1,0 +1,565 @@
+2026-02-17 22:18:43 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-17 22:18:43 [INF] Now listening on: http://localhost:5236
+2026-02-17 22:18:43 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 22:18:43 [INF] Hosting environment: Development
+2026-02-17 22:18:43 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-17 22:19:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2026-02-17 22:19:39 [WRN] Failed to determine the https port for redirect.
+2026-02-17 22:19:39 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 22:19:39 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 22:19:39 [INF] Executing ViewResult, running view Index.
+2026-02-17 22:19:39 [INF] Executed ViewResult - view Index executed in 91.8601ms.
+2026-02-17 22:19:39 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 98.0743ms
+2026-02-17 22:19:39 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 22:19:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 129.9521ms
+2026-02-17 22:19:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2026-02-17 22:19:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - null null
+2026-02-17 22:19:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-02-17 22:19:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - null null
+2026-02-17 22:19:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - null null
+2026-02-17 22:19:39 [INF] Request starting HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-02-17 22:19:39 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/obj/Debug/net10.0/scopedcss/bundle/FirstControllerProject.styles.css'
+2026-02-17 22:19:39 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/js/site.js'
+2026-02-17 22:19:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 200 227 text/javascript 5.5252ms
+2026-02-17 22:19:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - 200 1060 text/css 5.5063ms
+2026-02-17 22:19:39 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/css/site.css'
+2026-02-17 22:19:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - 200 341 text/css 6.3439ms
+2026-02-17 22:19:39 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/jquery/dist/jquery.min.js'
+2026-02-17 22:19:39 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-02-17 22:19:39 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-02-17 22:19:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 10.8322ms
+2026-02-17 22:19:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 10.7811ms
+2026-02-17 22:19:39 [INF] Request finished HTTP/1.1 GET http://localhost:5236/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 10.8388ms
+2026-02-17 22:19:40 [INF] Request starting HTTP/1.1 GET http://localhost:5236/favicon.ico - null null
+2026-02-17 22:19:40 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/favicon.ico'
+2026-02-17 22:19:40 [INF] Request finished HTTP/1.1 GET http://localhost:5236/favicon.ico - 200 5430 image/x-icon 1.2115ms
+2026-02-17 22:19:46 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 210
+2026-02-17 22:19:46 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 22:19:46 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 22:19:46 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-02-17 22:19:46 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 23.668ms
+2026-02-17 22:19:46 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 22:19:46 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 302 0 null 34.5118ms
+2026-02-17 22:19:46 [INF] Request starting HTTP/1.1 GET http://localhost:5236/UserMaster/ListAll - null null
+2026-02-17 22:19:46 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 22:19:46 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMaster (FirstControllerProject).
+2026-02-17 22:19:47 [ERR] Failed executing DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserMasterAutoId", u."Address", u."CreatedBy", u."CreatedDate", u."DHStatus", u."DOB", u."DateOfJoin", u."LastUpdate", u."LastUpdateBy", u."Name", u."PhoneNo", u."UniqueId", u."UserId"
+FROM dhadha."UserMaster" AS u
+2026-02-17 22:19:47 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+2026-02-17 22:19:47 [INF] Executed action FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject) in 468.3379ms
+2026-02-17 22:19:47 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 22:19:47 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.UserService.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Services/UserMaster/UserService.cs:line 19
+   at FirstControllerProject.Controllers.UserMaster.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+2026-02-17 22:19:47 [INF] Request finished HTTP/1.1 GET http://localhost:5236/UserMaster/ListAll - 500 null text/html; charset=utf-8 487.1077ms
+2026-02-17 22:34:01 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-17 22:34:01 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5236: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-02-17 22:35:32 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-17 22:35:32 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5236: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-02-17 22:36:54 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-17 22:36:54 [INF] Now listening on: http://localhost:5236
+2026-02-17 22:36:54 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 22:36:54 [INF] Hosting environment: Development
+2026-02-17 22:36:54 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-17 22:37:21 [INF] Request starting HTTP/1.1 GET http://localhost:5236/ - null null
+2026-02-17 22:37:21 [WRN] Failed to determine the https port for redirect.
+2026-02-17 22:37:21 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 22:37:21 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 22:37:21 [INF] Executing ViewResult, running view Index.
+2026-02-17 22:37:21 [INF] Executed ViewResult - view Index executed in 89.023ms.
+2026-02-17 22:37:21 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 95.2617ms
+2026-02-17 22:37:21 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 22:37:21 [INF] Request finished HTTP/1.1 GET http://localhost:5236/ - 200 null text/html; charset=utf-8 134.9263ms
+2026-02-17 22:37:21 [INF] Request starting HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - null null
+2026-02-17 22:37:21 [INF] The file /FirstControllerProject.styles.css was not modified
+2026-02-17 22:37:21 [INF] Request finished HTTP/1.1 GET http://localhost:5236/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - 304 null text/css 2.9334ms
+2026-02-17 22:37:25 [INF] Request starting HTTP/1.1 POST http://localhost:5236/Login/Login - application/x-www-form-urlencoded 208
+2026-02-17 22:37:25 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 22:37:25 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 22:37:25 [ERR] Invalid login attempt for username: sdsd
+2026-02-17 22:37:25 [INF] Executing ViewResult, running view Login.
+2026-02-17 22:37:25 [ERR] The view 'Login' was not found. Searched locations: ["/Views/Login/Login.cshtml","/Views/Shared/Login.cshtml"]
+2026-02-17 22:37:25 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 36.3015ms
+2026-02-17 22:37:25 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 22:37:25 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Login/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-17 22:37:25 [INF] Request finished HTTP/1.1 POST http://localhost:5236/Login/Login - 500 null text/html; charset=utf-8 71.3143ms
+2026-02-17 22:53:43 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-17 22:53:43 [INF] Now listening on: http://localhost:6001
+2026-02-17 22:53:43 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 22:53:43 [INF] Hosting environment: Development
+2026-02-17 22:53:43 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-17 23:05:28 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-17 23:05:28 [INF] Now listening on: http://localhost:6001
+2026-02-17 23:05:28 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 23:05:28 [INF] Hosting environment: Development
+2026-02-17 23:05:28 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/ - null null
+2026-02-17 23:05:29 [WRN] Failed to determine the https port for redirect.
+2026-02-17 23:05:29 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 23:05:29 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 23:05:29 [INF] Executing ViewResult, running view Index.
+2026-02-17 23:05:29 [INF] Executed ViewResult - view Index executed in 171.9064ms.
+2026-02-17 23:05:29 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 177.2446ms
+2026-02-17 23:05:29 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/ - 200 null text/html; charset=utf-8 219.6423ms
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - null null
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - null null
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/lib/jquery/dist/jquery.min.js - null null
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2026-02-17 23:05:29 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/obj/Debug/net8.0/scopedcss/bundle/FirstControllerProject.styles.css'
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - 200 1060 text/css 143.657ms
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-17 23:05:29 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/css/site.css'
+2026-02-17 23:05:29 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/js/site.js'
+2026-02-17 23:05:29 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 3.2731ms
+2026-02-17 23:05:29 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/jquery/dist/jquery.min.js'
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 30.4583ms
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - 200 341 text/css 158.1287ms
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 30.796ms
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 200 227 text/javascript 30.3166ms
+2026-02-17 23:05:29 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 185.8367ms
+2026-02-17 23:05:29 [INF] Request starting HTTP/1.1 GET http://localhost:6001/favicon.ico - null null
+2026-02-17 23:05:29 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/favicon.ico'
+2026-02-17 23:05:29 [INF] Request finished HTTP/1.1 GET http://localhost:6001/favicon.ico - 200 5430 image/x-icon 1.128ms
+2026-02-17 23:05:33 [INF] Request starting HTTP/1.1 POST http://localhost:6001/Login/Login - application/x-www-form-urlencoded 210
+2026-02-17 23:05:33 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 23:05:33 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 23:05:57 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-02-17 23:05:57 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 23128.419ms
+2026-02-17 23:05:57 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 23:05:57 [INF] Request finished HTTP/1.1 POST http://localhost:6001/Login/Login - 302 null null 23147.396ms
+2026-02-17 23:05:57 [INF] Request starting HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - null null
+2026-02-17 23:05:57 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 23:05:57 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMaster (FirstControllerProject).
+2026-02-17 23:06:14 [ERR] Failed executing DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserMasterAutoId", u."Address", u."CreatedBy", u."CreatedDate", u."DHStatus", u."DOB", u."DateOfJoin", u."LastUpdate", u."LastUpdateBy", u."Name", u."PhoneNo", u."UniqueId", u."UserId"
+FROM dhadha."UserMaster" AS u
+2026-02-17 23:06:15 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+2026-02-17 23:06:25 [INF] Executed action FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject) in 28906.0501ms
+2026-02-17 23:06:25 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 23:06:25 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.UserService.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Services/UserMaster/UserService.cs:line 19
+   at FirstControllerProject.Controllers.UserMaster.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+2026-02-17 23:06:26 [INF] Request finished HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - 500 null text/html; charset=utf-8 28968.284ms
+2026-02-17 23:06:26 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-17 23:06:26 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.5666ms
+2026-02-17 23:06:47 [INF] Request starting HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - null null
+2026-02-17 23:06:47 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 23:06:47 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMaster (FirstControllerProject).
+2026-02-17 23:07:10 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserMasterAutoId", u."Address", u."CreatedBy", u."CreatedDate", u."DHStatus", u."DOB", u."DateOfJoin", u."LastUpdate", u."LastUpdateBy", u."Name", u."PhoneNo", u."UniqueId", u."UserId"
+FROM dhadha."UserMaster" AS u
+2026-02-17 23:07:10 [ERR] An exception occurred while iterating over the results of a query for context type 'FirstControllerProject.Data.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+2026-02-17 23:07:49 [INF] Executed action FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject) in 61769.9196ms
+2026-02-17 23:07:49 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 23:07:49 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "dhadha.UserMaster" does not exist
+
+POSITION: 201
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FirstControllerProject.Services.UserService.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Services/UserMaster/UserService.cs:line 19
+   at FirstControllerProject.Controllers.UserMaster.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 18
+   at lambda_method26(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "dhadha.UserMaster" does not exist
+    Position: 201
+    File: parse_relation.c
+    Line: 1448
+    Routine: parserOpenTable
+2026-02-17 23:07:49 [INF] Request finished HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - 500 null text/html; charset=utf-8 61790.6585ms
+2026-02-17 23:07:49 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-17 23:07:49 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3331ms
+2026-02-17 23:08:27 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-02-17 23:08:27 [INF] Now listening on: http://localhost:6001
+2026-02-17 23:08:27 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 23:08:27 [INF] Hosting environment: Development
+2026-02-17 23:08:27 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-02-17 23:08:28 [INF] Request starting HTTP/1.1 GET http://localhost:6001/ - null null
+2026-02-17 23:08:28 [WRN] Failed to determine the https port for redirect.
+2026-02-17 23:08:28 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 23:08:28 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 23:08:28 [INF] Executing ViewResult, running view Index.
+2026-02-17 23:08:28 [INF] Executed ViewResult - view Index executed in 134.812ms.
+2026-02-17 23:08:28 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 141.2253ms
+2026-02-17 23:08:28 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-02-17 23:08:28 [INF] Request finished HTTP/1.1 GET http://localhost:6001/ - 200 null text/html; charset=utf-8 181.4742ms
+2026-02-17 23:08:28 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-17 23:08:28 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 3.7454ms
+2026-02-17 23:08:32 [INF] Request starting HTTP/1.1 POST http://localhost:6001/Login/Login - application/x-www-form-urlencoded 210
+2026-02-17 23:08:32 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 23:08:32 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.Login) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-02-17 23:08:39 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-02-17 23:08:39 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 7062.4464ms
+2026-02-17 23:08:39 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-02-17 23:08:39 [INF] Request finished HTTP/1.1 POST http://localhost:6001/Login/Login - 302 null null 7080.7082ms
+2026-02-17 23:08:39 [INF] Request starting HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - null null
+2026-02-17 23:08:39 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 23:08:39 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMaster (FirstControllerProject).
+2026-02-17 23:08:44 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserMasterAutoId", u."Address", u."CreatedBy", u."CreatedDate", u."DHStatus", u."DOB", u."DateOfJoin", u."LastUpdate", u."LastUpdateBy", u."Name", u."PhoneNo", u."UniqueId", u."UserId"
+FROM "Common"."UserMaster" AS u
+2026-02-17 23:08:48 [INF] Executing ViewResult, running view ListAll.
+2026-02-17 23:08:48 [INF] Executed ViewResult - view ListAll executed in 11.2218ms.
+2026-02-17 23:08:48 [INF] Executed action FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject) in 9021.3528ms
+2026-02-17 23:08:48 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMaster.ListAll (FirstControllerProject)'
+2026-02-17 23:08:48 [INF] Request finished HTTP/1.1 GET http://localhost:6001/UserMaster/ListAll - 200 null text/html; charset=utf-8 9034.6162ms
+2026-02-17 23:08:48 [INF] Request starting HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-17 23:08:48 [INF] Request finished HTTP/1.1 GET http://localhost:6001/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.6742ms

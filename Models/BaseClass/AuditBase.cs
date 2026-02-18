@@ -7,7 +7,9 @@ namespace FirstControllerProject.Models.BaseClass
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
         [Required]
         public string CreatedBy { get; set; }
-        public DateTime LastUpdateDate { get; set; } = DateTime.UtcNow;
+        public DateTime LastUpdate { get; set; } = DateTime.UtcNow;
         public string LastUpdateBy { get; set; }
+        public Guid UniqueId {get;set;}
+        public string DHStatus {get;set;}
     }
 }
