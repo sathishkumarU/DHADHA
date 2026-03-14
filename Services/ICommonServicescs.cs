@@ -3,14 +3,12 @@ using FirstControllerProject.Models;
 
 namespace FirstControllerProject.Services
 {
-    public interface ICommonServicescs<T>
+    public interface ICommonServicescs<Entity,veEntity>
     {
-        IEnumerable<T> GetAll();
-        T GetById(int id);
-        IEnumerable<T> Add(IEnumerable<T> entity);
-        T Update(T entity);
-        T Edit(int Id);
+        List<veEntity> GetAll();
+        veEntity GetById(int id);
+        string _createUpdate(Entity entity);
         bool Delete(int Id);
-        IEnumerable<T> GetPageSized(int pageSize, int pageCount);
+        IEnumerable<veEntity> GetPageSized(int pageSize, int pageCount);
     }
 }

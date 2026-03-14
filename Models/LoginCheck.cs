@@ -1,8 +1,8 @@
 ﻿namespace FirstControllerProject.Models
 {
-    public class Login
+    public class LoginCheck
     {
-        public string Username { get; set; }
+        public string UserId { get; set; }
         public string Password { get; set; }
     }
 }

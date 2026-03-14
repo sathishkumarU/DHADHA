@@ -3,6 +3,8 @@ using FirstControllerProject.Models;
 using FirstControllerProject.Data;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using FirstControllerProject.Services.CommonMethods;
+using FirstControllerProject;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +14,8 @@ builder.Services.AddControllersWithViews();
 //builder.Services.AddScoped<ICommonServicescs<Chariot>, ChariotsServices>();
 //builder.Services.AddScoped<StudentServices>();
 //builder.Services.AddScoped<DHADHAMemberBO>();
-builder.Services.AddScoped<IUserMaster,UserService>();
+builder.Services.AddScoped<ICommonServicescs<UserMaster,veUserMaster>,UserService>();
+builder.Services.AddScoped<ILoginService,LoginService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
 

@@ -1,9 +1,8 @@
 using System;
 using FirstControllerProject.Models;
+using Microsoft.AspNetCore.Mvc;
 namespace FirstControllerProject.Services
 {
-    public interface IUserMaster
-    {
-        List<UserMaster> ListAll();
-    }   
+   
+    
 }

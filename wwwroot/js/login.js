@@ -12,22 +12,24 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Please fill all fields");
             return;
         }
-        debugger;
+        $(this).prop("disabled", true);
         $.ajax({
             url: "/Login/Login",
             type: "POST",
             data: {
-                UserName: userId,
+                UserId: userId,
                 Password: password
             },
             success: function (response) {
                 console.log(response);
                 alert("Login Success");
                 window.location.href = "/UserMaster/ListAll";
+                $(this).prop("disabled", false);
             },
             error: function (error) {
                 alert("Login Failed");
-                console.log(error);
+                console.log("===> eeror" +error);
+                $(this).prop("disabled", false);
             }
         });
 

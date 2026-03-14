@@ -5,7 +5,7 @@ using FirstControllerProject.Models.BaseClass;
 
 namespace FirstControllerProject.Models
 {
-    public class UserMaster : AuditBase
+    public abstract class  UserMasterBase : AuditBase
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]   
@@ -17,5 +17,16 @@ namespace FirstControllerProject.Models
         public string? DHStatus { get; set; }
         public string PhoneNo { get; set; }
         public string? Address { get; set; }
+        public string Password {get;set;}
+        public int? ReferenceAutoId {get;set;}
+        public string Email {get;set;}
+    }
+    public class UserMaster : UserMasterBase
+    {
+        
+    }
+    public class veUserMaster : UserMasterBase
+    {
+        
     }
 }

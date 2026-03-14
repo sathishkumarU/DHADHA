@@ -1,0 +1,963 @@
+2026-03-09 22:01:36 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-09 22:01:36 [INF] Now listening on: http://localhost:6002
+2026-03-09 22:01:36 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-09 22:01:36 [INF] Hosting environment: Development
+2026-03-09 22:01:36 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-03-09 22:01:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/ - null null
+2026-03-09 22:01:37 [WRN] Failed to determine the https port for redirect.
+2026-03-09 22:01:37 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 22:01:37 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 22:01:37 [INF] Executing ViewResult, running view Index.
+2026-03-09 22:01:37 [INF] Executed ViewResult - view Index executed in 116.5151ms.
+2026-03-09 22:01:37 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 252.8275ms
+2026-03-09 22:01:37 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 22:01:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/ - 200 null text/html; charset=utf-8 295.9483ms
+2026-03-09 22:01:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/images/DhaDhaLogo.jpeg - null null
+2026-03-09 22:01:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/css/login.css - null null
+2026-03-09 22:01:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 22:01:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/js/login.js - null null
+2026-03-09 22:01:37 [INF] The file /css/login.css was not modified
+2026-03-09 22:01:37 [INF] The file /js/login.js was not modified
+2026-03-09 22:01:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 7.2911ms
+2026-03-09 22:01:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/js/login.js - 304 null text/javascript 7.3181ms
+2026-03-09 22:01:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/css/login.css - 304 null text/css 13.3777ms
+2026-03-09 22:01:37 [INF] The file /images/DhaDhaLogo.jpeg was not modified
+2026-03-09 22:01:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/images/DhaDhaLogo.jpeg - 304 null image/jpeg 20.8091ms
+2026-03-09 22:01:42 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 22:01:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 22:01:42 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 22:01:43 [INF] Executed DbCommand (37ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 22:01:43 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 22:01:43 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 618.5229ms
+2026-03-09 22:01:43 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 22:01:43 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 637.7673ms
+2026-03-09 22:01:43 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 22:01:43 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 22:01:43 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 22:01:43 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 22:01:43 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 22:01:43 [INF] Executed ViewResult - view ListAll executed in 34.5479ms.
+2026-03-09 22:01:43 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 59.5149ms
+2026-03-09 22:01:43 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 22:01:43 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 61.007ms
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 22:01:46 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 22:01:46 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 22:01:46 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 22:01:46 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 22:01:46 [INF] Executed ViewResult - view ListAll executed in 3.6505ms.
+2026-03-09 22:01:46 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 22.211ms
+2026-03-09 22:01:46 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 25.4518ms
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/css/theme.css - null null
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - null null
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - null null
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-03-09 22:01:46 [INF] The file /css/site.css was not modified
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - 304 null text/css 0.9817ms
+2026-03-09 22:01:46 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/lib/jquery/dist/jquery.min.js - null null
+2026-03-09 22:01:46 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/lib/jquery/dist/jquery.min.js - 304 null text/javascript 26.283ms
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 53.6423ms
+2026-03-09 22:01:46 [INF] The file /css/theme.css was not modified
+2026-03-09 22:01:46 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 3.8864ms
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2026-03-09 22:01:46 [INF] The file /js/site.js was not modified
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/css/theme.css - 304 null text/css 57.6494ms
+2026-03-09 22:01:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 304 null text/javascript 22.993ms
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 29.4215ms
+2026-03-09 22:01:46 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/obj/Debug/net8.0/scopedcss/bundle/FirstControllerProject.styles.css'
+2026-03-09 22:01:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - 200 1060 text/css 90.5512ms
+2026-03-09 23:14:41 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-09 23:14:41 [INF] Now listening on: http://localhost:6002
+2026-03-09 23:14:41 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-09 23:14:41 [INF] Hosting environment: Development
+2026-03-09 23:14:41 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-03-09 23:14:41 [INF] Request starting HTTP/1.1 GET http://localhost:6002/ - null null
+2026-03-09 23:14:41 [WRN] Failed to determine the https port for redirect.
+2026-03-09 23:14:41 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:14:41 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:14:41 [INF] Executing ViewResult, running view Index.
+2026-03-09 23:14:42 [INF] Executed ViewResult - view Index executed in 37.6042ms.
+2026-03-09 23:14:42 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 141.1337ms
+2026-03-09 23:14:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:14:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/ - 200 null text/html; charset=utf-8 175.5252ms
+2026-03-09 23:14:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:14:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 2.2557ms
+2026-03-09 23:14:43 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:14:43 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:14:43 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:14:44 [INF] Executed DbCommand (32ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:14:44 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:14:44 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 571.7302ms
+2026-03-09 23:14:44 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:14:44 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 590.2894ms
+2026-03-09 23:14:44 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:14:44 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:14:44 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:14:44 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 45.1273ms
+2026-03-09 23:14:44 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:14:44 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FirstControllerProject.Controllers.UserMasterController.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 43
+   at lambda_method27(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-09 23:14:44 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 500 null text/plain; charset=utf-8 66.4948ms
+2026-03-09 23:14:46 [INF] Request starting HTTP/1.1 GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-09 23:14:46 [INF] Request finished HTTP/1.1 GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 2.0009ms
+2026-03-09 23:14:46 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-09 23:14:48 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:14:48 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:14:48 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:14:48 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:14:48 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:14:48 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 55.8344ms
+2026-03-09 23:14:48 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:14:48 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 58.9545ms
+2026-03-09 23:14:48 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:14:48 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:14:48 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:14:48 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 15.6476ms
+2026-03-09 23:14:48 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:14:48 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FirstControllerProject.Controllers.UserMasterController.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 43
+   at lambda_method27(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-09 23:14:48 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 500 null text/plain; charset=utf-8 19.4782ms
+2026-03-09 23:14:56 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:14:56 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:14:56 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:14:56 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 24.6214ms
+2026-03-09 23:14:56 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:14:56 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FirstControllerProject.Controllers.UserMasterController.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 43
+   at lambda_method27(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-09 23:14:56 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 500 null text/html; charset=utf-8 43.415ms
+2026-03-09 23:14:56 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:14:56 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.7637ms
+2026-03-09 23:15:27 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:15:27 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:15:27 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:15:53 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 25540.0874ms
+2026-03-09 23:15:53 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:15:53 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FirstControllerProject.Controllers.UserMasterController.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 43
+   at lambda_method27(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-09 23:15:53 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 500 null text/html; charset=utf-8 25555.635ms
+2026-03-09 23:15:53 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:15:53 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.7349ms
+2026-03-09 23:15:57 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:15:57 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:15:57 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:15:59 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 1711.0074ms
+2026-03-09 23:15:59 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:15:59 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FirstControllerProject.Controllers.UserMasterController.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 43
+   at lambda_method27(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-09 23:15:59 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 500 null text/html; charset=utf-8 1719.7092ms
+2026-03-09 23:15:59 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:15:59 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3327ms
+2026-03-09 23:17:27 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-09 23:17:27 [INF] Now listening on: http://localhost:6002
+2026-03-09 23:17:27 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-09 23:17:27 [INF] Hosting environment: Development
+2026-03-09 23:17:27 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-03-09 23:17:27 [INF] Request starting HTTP/1.1 GET http://localhost:6002/ - null null
+2026-03-09 23:17:27 [WRN] Failed to determine the https port for redirect.
+2026-03-09 23:17:27 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:17:27 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:17:27 [INF] Executing ViewResult, running view Index.
+2026-03-09 23:17:27 [INF] Executed ViewResult - view Index executed in 37.4072ms.
+2026-03-09 23:17:27 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 146.0835ms
+2026-03-09 23:17:27 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:17:27 [INF] Request finished HTTP/1.1 GET http://localhost:6002/ - 200 null text/html; charset=utf-8 184.332ms
+2026-03-09 23:17:27 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:17:27 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 3.5156ms
+2026-03-09 23:17:29 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:17:29 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:17:29 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:17:30 [INF] Executed DbCommand (35ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:17:30 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:17:30 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 621.2594ms
+2026-03-09 23:17:30 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:17:30 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 637.8918ms
+2026-03-09 23:17:30 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:17:30 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:17:30 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:17:34 [INF] Request starting HTTP/1.1 GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-09 23:17:34 [INF] Request finished HTTP/1.1 GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 18.2803ms
+2026-03-09 23:17:34 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-09 23:17:34 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 3685.7898ms
+2026-03-09 23:17:34 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:17:34 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FirstControllerProject.Controllers.UserMasterController.ListAll() in /Users/sharukhpasha/DHADHA/DHADHA/Controllers/UserMasterController.cs:line 43
+   at lambda_method27(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-09 23:17:34 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 500 null text/plain; charset=utf-8 3712.5783ms
+2026-03-09 23:40:16 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-09 23:40:16 [INF] Now listening on: http://localhost:6002
+2026-03-09 23:40:16 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-09 23:40:16 [INF] Hosting environment: Development
+2026-03-09 23:40:16 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-03-09 23:40:16 [INF] Request starting HTTP/1.1 GET http://localhost:6002/ - null null
+2026-03-09 23:40:16 [WRN] Failed to determine the https port for redirect.
+2026-03-09 23:40:16 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:40:16 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:40:16 [INF] Executing ViewResult, running view Index.
+2026-03-09 23:40:16 [INF] Executed ViewResult - view Index executed in 39.7743ms.
+2026-03-09 23:40:16 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 137.1782ms
+2026-03-09 23:40:16 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:40:16 [INF] Request finished HTTP/1.1 GET http://localhost:6002/ - 200 null text/html; charset=utf-8 173.4126ms
+2026-03-09 23:40:16 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:40:16 [INF] Request starting HTTP/1.1 GET http://localhost:6002/css/login.css - null null
+2026-03-09 23:40:16 [INF] Request starting HTTP/1.1 GET http://localhost:6002/images/DhaDhaLogo.jpeg - null null
+2026-03-09 23:40:16 [INF] Request starting HTTP/1.1 GET http://localhost:6002/js/login.js - null null
+2026-03-09 23:40:16 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 2.2754ms
+2026-03-09 23:40:16 [INF] Sending file. Request path: '/css/login.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/css/login.css'
+2026-03-09 23:40:16 [INF] Sending file. Request path: '/images/DhaDhaLogo.jpeg'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/images/DhaDhaLogo.jpeg'
+2026-03-09 23:40:16 [INF] Request finished HTTP/1.1 GET http://localhost:6002/css/login.css - 200 1780 text/css 216.3635ms
+2026-03-09 23:40:16 [INF] Sending file. Request path: '/js/login.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/js/login.js'
+2026-03-09 23:40:16 [INF] Request finished HTTP/1.1 GET http://localhost:6002/images/DhaDhaLogo.jpeg - 200 61932 image/jpeg 219.3042ms
+2026-03-09 23:40:16 [INF] Request finished HTTP/1.1 GET http://localhost:6002/js/login.js - 200 1135 text/javascript 169.5152ms
+2026-03-09 23:40:16 [INF] Request starting HTTP/1.1 GET http://localhost:6002/favicon.ico - null null
+2026-03-09 23:40:16 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/favicon.ico'
+2026-03-09 23:40:16 [INF] Request finished HTTP/1.1 GET http://localhost:6002/favicon.ico - 200 5430 image/x-icon 53.6929ms
+2026-03-09 23:40:23 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:40:23 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:40:23 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:40:24 [INF] Executed DbCommand (33ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:40:24 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:40:24 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 571.6145ms
+2026-03-09 23:40:24 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:40:24 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 590.9207ms
+2026-03-09 23:40:24 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:40:24 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:40:24 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:07 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:07 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:07 [INF] Request starting HTTP/1.1 GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-09 23:41:07 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:07 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:07 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:07 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:07 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:07 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:07 [INF] Request finished HTTP/1.1 GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 106.7934ms
+2026-03-09 23:41:07 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:6002/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-09 23:41:07 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:07 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:07 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:07 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:07 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 91.8715ms
+2026-03-09 23:41:07 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:07 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 197.0759ms
+2026-03-09 23:41:07 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:07 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:07 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:07 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:08 [INF] Executed DbCommand (539ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:08 [INF] Executed DbCommand (539ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:08 [INF] Executed DbCommand (539ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:08 [INF] Executed DbCommand (539ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:08 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:08 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:08 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 640.7645ms
+2026-03-09 23:41:08 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:08 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 640.8438ms
+2026-03-09 23:41:08 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:08 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 641.2411ms
+2026-03-09 23:41:08 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 669.653ms
+2026-03-09 23:41:08 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 671.384ms
+2026-03-09 23:41:08 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 638.2204ms
+2026-03-09 23:41:08 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:08 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 1398.9234ms
+2026-03-09 23:41:08 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:08 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:08 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:08 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:08 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:08 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 1588.4575ms
+2026-03-09 23:41:08 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:08 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:08 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:09 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 369.0895ms
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 1866.7157ms
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 371.6611ms
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 371.6ms
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 667.8452ms
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 373.0515ms
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 1867.4459ms
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 369.6825ms
+2026-03-09 23:41:09 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:09 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:09 [INF] Executed DbCommand (23ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:09 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:09 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:09 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 428.9644ms
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 430.6551ms
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 37.0897ms
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 37.3581ms
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 37.9744ms
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 37.9867ms
+2026-03-09 23:41:09 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:09 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:41:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 46.1544ms
+2026-03-09 23:41:09 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 47.0139ms
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 46.6072ms
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 47.2325ms
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 88.4159ms
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 88.7167ms
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 89.282ms
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 97.5257ms
+2026-03-09 23:41:09 [INF] Executed ViewResult - view ListAll executed in 318.8835ms.
+2026-03-09 23:41:09 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 45090.1535ms
+2026-03-09 23:41:09 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 45091.567ms
+2026-03-09 23:41:09 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:09 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:09 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:23 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:24 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:28 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:28 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:28 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:28 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:28 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:28 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:32 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:33 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:33 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:33 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:33 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:33 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:33 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:34 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:34 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:34 [INF] Executed DbCommand (473ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:34 [INF] Executed DbCommand (473ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:36 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:36 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:37 [INF] Executed DbCommand (595ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:37 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:37 [INF] Executed ViewResult - view ListAll executed in 1203.9005ms.
+2026-03-09 23:41:37 [INF] Executed ViewResult - view ListAll executed in 1204.172ms.
+2026-03-09 23:41:37 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 9162.0575ms
+2026-03-09 23:41:37 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 9164.0966ms
+2026-03-09 23:41:37 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:37 [INF] Executed ViewResult - view ListAll executed in 2.8778ms.
+2026-03-09 23:41:37 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 3478.5808ms
+2026-03-09 23:41:37 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:37 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:37 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 9162.0554ms
+2026-03-09 23:41:37 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 9164.8988ms
+2026-03-09 23:41:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 4606.2433ms
+2026-03-09 23:41:37 [INF] Executed ViewResult - view ListAll executed in 1.5366ms.
+2026-03-09 23:41:37 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 3454.8652ms
+2026-03-09 23:41:37 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:37 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 3506.8905ms
+2026-03-09 23:41:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:37 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:37 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:37 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:37 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:37 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:37 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:37 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:38 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:39 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:40 [INF] Executed DbCommand (706ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:40 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:40 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:42 [INF] Executed ViewResult - view ListAll executed in 1583.0611ms.
+2026-03-09 23:41:42 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 7088.4156ms
+2026-03-09 23:41:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 8127.8883ms
+2026-03-09 23:41:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:42 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:42 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:42 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:42 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:42 [INF] Executed ViewResult - view ListAll executed in 494.5387ms.
+2026-03-09 23:41:42 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 2082.0977ms
+2026-03-09 23:41:42 [INF] Executed DbCommand (497ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Executed DbCommand (497ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 4441.5318ms
+2026-03-09 23:41:42 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:42 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:42 [INF] Executed ViewResult - view ListAll executed in 1.0862ms.
+2026-03-09 23:41:42 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 5144.6901ms
+2026-03-09 23:41:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 5145.508ms
+2026-03-09 23:41:42 [INF] Executed ViewResult - view ListAll executed in 1.8271ms.
+2026-03-09 23:41:42 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 5146.2713ms
+2026-03-09 23:41:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 5147.1297ms
+2026-03-09 23:41:42 [INF] Executed ViewResult - view ListAll executed in 3.0068ms.
+2026-03-09 23:41:42 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 5147.1098ms
+2026-03-09 23:41:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 5147.8765ms
+2026-03-09 23:41:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:42 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:42 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:44 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:44 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:44 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:48 [INF] Executed DbCommand (752ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:48 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:48 [INF] Executed ViewResult - view ListAll executed in 23627.0688ms.
+2026-03-09 23:41:48 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:48 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 38864.8163ms
+2026-03-09 23:41:48 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:48 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:48 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:48 [INF] Executed ViewResult - view ListAll executed in 1.2154ms.
+2026-03-09 23:41:48 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 6416.6653ms
+2026-03-09 23:41:48 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:48 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 38866.8538ms
+2026-03-09 23:41:48 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 6417.5605ms
+2026-03-09 23:41:48 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:48 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:48 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:48 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:48 [INF] Executed ViewResult - view ListAll executed in 2.6863ms.
+2026-03-09 23:41:48 [INF] Executed ViewResult - view ListAll executed in 3.8446ms.
+2026-03-09 23:41:48 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 5921.5956ms
+2026-03-09 23:41:48 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 5920.8147ms
+2026-03-09 23:41:48 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:48 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:49 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:49 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:50 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:50 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 7540.7651ms
+2026-03-09 23:41:50 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 7540.7277ms
+2026-03-09 23:41:50 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:50 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:50 [INF] Executed ViewResult - view ListAll executed in 471.4622ms.
+2026-03-09 23:41:50 [INF] Executed DbCommand (472ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:50 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 8011.3474ms
+2026-03-09 23:41:50 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:50 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 8012.0526ms
+2026-03-09 23:41:50 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:51 [INF] Executed ViewResult - view ListAll executed in 689.1612ms.
+2026-03-09 23:41:51 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 6439.0635ms
+2026-03-09 23:41:51 [INF] Executed DbCommand (690ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:51 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:51 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:51 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 6975.3937ms
+2026-03-09 23:41:51 [INF] Executed ViewResult - view ListAll executed in 1.4348ms.
+2026-03-09 23:41:51 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 2784.3714ms
+2026-03-09 23:41:51 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:51 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 2785.3752ms
+2026-03-09 23:41:51 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:51 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:51 [INF] Executed ViewResult - view ListAll executed in 1.1898ms.
+2026-03-09 23:41:51 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 1167.061ms
+2026-03-09 23:41:51 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:51 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 1874.834ms
+2026-03-09 23:41:54 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:41:54 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:54 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:41:57 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:41:57 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:41:57 [INF] Executed ViewResult - view ListAll executed in 1.4171ms.
+2026-03-09 23:41:57 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 2708.1482ms
+2026-03-09 23:41:57 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:41:57 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 2710.1957ms
+2026-03-09 23:42:02 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:42:02 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:42:02 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:42:11 [INF] User profile is available. Using '/Users/sharukhpasha/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-09 23:42:11 [INF] Now listening on: http://localhost:6002
+2026-03-09 23:42:11 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-09 23:42:11 [INF] Hosting environment: Development
+2026-03-09 23:42:11 [INF] Content root path: /Users/sharukhpasha/DHADHA/DHADHA
+2026-03-09 23:42:11 [INF] Request starting HTTP/1.1 GET http://localhost:6002/ - null null
+2026-03-09 23:42:11 [WRN] Failed to determine the https port for redirect.
+2026-03-09 23:42:11 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:42:11 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:42:12 [INF] Executing ViewResult, running view Index.
+2026-03-09 23:42:12 [INF] Executed ViewResult - view Index executed in 27.2988ms.
+2026-03-09 23:42:12 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 93.4403ms
+2026-03-09 23:42:12 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:42:12 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:12 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 4.2696ms
+2026-03-09 23:42:12 [INF] Request finished HTTP/1.1 GET http://localhost:6002/ - 200 null text/html; charset=utf-8 131.9991ms
+2026-03-09 23:42:19 [INF] Request starting HTTP/1.1 POST http://localhost:6002/Login/Login - application/x-www-form-urlencoded; charset=UTF-8 26
+2026-03-09 23:42:19 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:42:19 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FirstControllerProject.Models.LoginCheck) on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:42:19 [INF] Executed DbCommand (29ms) [Parameters=[@__userId_0='?', @__password_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserId" = @__userId_0 AND v."Password" = @__password_1
+LIMIT 1
+2026-03-09 23:42:19 [INF] Executing RedirectResult, redirecting to /UserMaster/ListAll.
+2026-03-09 23:42:19 [INF] Executed action FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject) in 621.4703ms
+2026-03-09 23:42:19 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Login (FirstControllerProject)'
+2026-03-09 23:42:19 [INF] Request finished HTTP/1.1 POST http://localhost:6002/Login/Login - 302 0 null 640.6644ms
+2026-03-09 23:42:19 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:42:19 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:42:19 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:42:22 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:42:22 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:42:22 [INF] Executed ViewResult - view ListAll executed in 36.0702ms.
+2026-03-09 23:42:22 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 2685.6683ms
+2026-03-09 23:42:22 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:42:22 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 2687.7271ms
+2026-03-09 23:42:26 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - null null
+2026-03-09 23:42:26 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:42:26 [INF] Route matched with {action = "ListAll", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListAll() on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:42:29 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+2026-03-09 23:42:29 [INF] Executing ViewResult, running view ListAll.
+2026-03-09 23:42:29 [INF] Executed ViewResult - view ListAll executed in 1.7994ms.
+2026-03-09 23:42:29 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject) in 2902.7633ms
+2026-03-09 23:42:29 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.ListAll (FirstControllerProject)'
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/ListAll - 200 null text/html; charset=utf-8 2907.7333ms
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - null null
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - null null
+2026-03-09 23:42:29 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/css/site.css'
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - 200 341 text/css 91.9734ms
+2026-03-09 23:42:29 [INF] Sending file. Request path: '/FirstControllerProject.styles.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/obj/Debug/net8.0/scopedcss/bundle/FirstControllerProject.styles.css'
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/css/theme.css - null null
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - 200 1060 text/css 90.8995ms
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/lib/jquery/dist/jquery.min.js - null null
+2026-03-09 23:42:29 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-03-09 23:42:29 [INF] Sending file. Request path: '/css/theme.css'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/css/theme.css'
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/css/theme.css - 200 1134 text/css 130.6684ms
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 222.9383ms
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-03-09 23:42:29 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/js/site.js'
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 200 227 text/javascript 2.0595ms
+2026-03-09 23:42:29 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 2.9997ms
+2026-03-09 23:42:29 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/sharukhpasha/DHADHA/DHADHA/wwwroot/lib/jquery/dist/jquery.min.js'
+2026-03-09 23:42:29 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 135.445ms
+2026-03-09 23:42:29 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.2087ms
+2026-03-09 23:42:34 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/AddEdit - null null
+2026-03-09 23:42:34 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+FirstControllerProject.Controllers.UserMasterController.AddEdit (FirstControllerProject)
+FirstControllerProject.Controllers.UserMasterController.AddEdit (FirstControllerProject)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-09 23:42:34 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/AddEdit - 500 null text/html; charset=utf-8 46.2208ms
+2026-03-09 23:42:34 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:34 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.2492ms
+2026-03-09 23:42:40 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:40 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3448ms
+2026-03-09 23:42:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/Edit/2 - null null
+2026-03-09 23:42:42 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.Edit (FirstControllerProject)'
+2026-03-09 23:42:42 [INF] Route matched with {action = "Edit", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Int32) on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:42:42 [INF] Executed DbCommand (3ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserMasterAutoId" = @__Id_0
+LIMIT 1
+2026-03-09 23:42:42 [INF] Executing ViewResult, running view AddEdit.
+2026-03-09 23:42:42 [INF] Executed ViewResult - view AddEdit executed in 35.4428ms.
+2026-03-09 23:42:42 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.Edit (FirstControllerProject) in 56.1665ms
+2026-03-09 23:42:42 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.Edit (FirstControllerProject)'
+2026-03-09 23:42:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/Edit/2 - 200 null text/html; charset=utf-8 60.9696ms
+2026-03-09 23:42:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - null null
+2026-03-09 23:42:42 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3146ms
+2026-03-09 23:42:42 [INF] The file /FirstControllerProject.styles.css was not modified
+2026-03-09 23:42:42 [INF] Request finished HTTP/1.1 GET http://localhost:6002/FirstControllerProject.styles.css?v=qj_WAZ2svA1dO6180PyQmoaE2M3dvPZ5Lc699Ux0Wmw - 304 null text/css 2.8308ms
+2026-03-09 23:42:47 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:47 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3841ms
+2026-03-09 23:42:49 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/View/3 - null null
+2026-03-09 23:42:49 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.View (FirstControllerProject)'
+2026-03-09 23:42:49 [INF] Route matched with {action = "View", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult View(Int32) on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:42:49 [INF] Executed DbCommand (1ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserMasterAutoId" = @__Id_0
+LIMIT 1
+2026-03-09 23:42:49 [INF] Executing ViewResult, running view AddEdit.
+2026-03-09 23:42:49 [INF] Executed ViewResult - view AddEdit executed in 2.7878ms.
+2026-03-09 23:42:49 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.View (FirstControllerProject) in 10.2206ms
+2026-03-09 23:42:49 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.View (FirstControllerProject)'
+2026-03-09 23:42:49 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/View/3 - 200 null text/html; charset=utf-8 15.2355ms
+2026-03-09 23:42:49 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:49 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3226ms
+2026-03-09 23:42:51 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:51 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.2469ms
+2026-03-09 23:42:52 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/View/1 - null null
+2026-03-09 23:42:52 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.View (FirstControllerProject)'
+2026-03-09 23:42:52 [INF] Route matched with {action = "View", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult View(Int32) on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:42:52 [INF] Executed DbCommand (1ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserMasterAutoId" = @__Id_0
+LIMIT 1
+2026-03-09 23:42:52 [INF] Executing ViewResult, running view AddEdit.
+2026-03-09 23:42:52 [INF] Executed ViewResult - view AddEdit executed in 2.7612ms.
+2026-03-09 23:42:52 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.View (FirstControllerProject) in 6.8422ms
+2026-03-09 23:42:52 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.View (FirstControllerProject)'
+2026-03-09 23:42:52 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/View/1 - 200 null text/html; charset=utf-8 7.7171ms
+2026-03-09 23:42:52 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:52 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3698ms
+2026-03-09 23:42:55 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:55 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.217ms
+2026-03-09 23:42:56 [INF] Request starting HTTP/1.1 GET http://localhost:6002/UserMaster/Edit/2 - null null
+2026-03-09 23:42:56 [INF] Executing endpoint 'FirstControllerProject.Controllers.UserMasterController.Edit (FirstControllerProject)'
+2026-03-09 23:42:56 [INF] Route matched with {action = "Edit", controller = "UserMaster"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Int32) on controller FirstControllerProject.Controllers.UserMasterController (FirstControllerProject).
+2026-03-09 23:42:56 [INF] Executed DbCommand (1ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Address", v."CreatedBy", v."CreatedDate", v."DHStatus", v."DOB", v."DateOfJoin", v."Email", v."LastUpdate", v."LastUpdateBy", v."Name", v."Password", v."PhoneNo", v."ReferenceAutoId", v."UniqueId", v."UserId", v."UserMasterAutoId"
+FROM "Common"."veUserMaster" AS v
+WHERE v."UserMasterAutoId" = @__Id_0
+LIMIT 1
+2026-03-09 23:42:56 [INF] Executing ViewResult, running view AddEdit.
+2026-03-09 23:42:56 [INF] Executed ViewResult - view AddEdit executed in 2.1562ms.
+2026-03-09 23:42:56 [INF] Executed action FirstControllerProject.Controllers.UserMasterController.Edit (FirstControllerProject) in 5.6439ms
+2026-03-09 23:42:56 [INF] Executed endpoint 'FirstControllerProject.Controllers.UserMasterController.Edit (FirstControllerProject)'
+2026-03-09 23:42:56 [INF] Request finished HTTP/1.1 GET http://localhost:6002/UserMaster/Edit/2 - 200 null text/html; charset=utf-8 6.3869ms
+2026-03-09 23:42:56 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:42:56 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.2109ms
+2026-03-09 23:43:00 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:43:00 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.3189ms
+2026-03-09 23:43:01 [INF] Request starting HTTP/1.1 GET http://localhost:6002/ - null null
+2026-03-09 23:43:01 [INF] Executing endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:43:01 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstControllerProject.Controllers.LoginController (FirstControllerProject).
+2026-03-09 23:43:01 [INF] Executing ViewResult, running view Index.
+2026-03-09 23:43:01 [INF] Executed ViewResult - view Index executed in 2.1766ms.
+2026-03-09 23:43:01 [INF] Executed action FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject) in 3.786ms
+2026-03-09 23:43:01 [INF] Executed endpoint 'FirstControllerProject.Controllers.LoginController.Index (FirstControllerProject)'
+2026-03-09 23:43:01 [INF] Request finished HTTP/1.1 GET http://localhost:6002/ - 200 null text/html; charset=utf-8 4.8938ms
+2026-03-09 23:43:01 [INF] Request starting HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-09 23:43:01 [INF] Request finished HTTP/1.1 GET http://localhost:6002/_framework/aspnetcore-browser-refresh.js - 200 14879 application/javascript; charset=utf-8 0.1908ms

@@ -1,0 +1,154 @@
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+
+@model veUserMaster;
+@{
+    bool isCreate = Model.UserMasterAutoId > 0 ? false : true;
+    ViewData["Title"] = "Create User";
+    bool allowEdit = true;
+    if(ViewBag.Mode == "Add")
+    {
+        allowEdit = false;
+    }
+    
+}
+<style>
+    .input-error {
+        border: 1px solid red !important;
+        box-shadow: 0 0 5px red;
+    }
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <div class="card shadow p-4">
+        <h3 class="mb-4 text-primary">Create User</h3>
+        <span id="Errormsg"></span>
+        <form id="userForm">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label>Name</label>
+                    <input type="text" name="Name" asp-for="Name" readonly="@allowEdit" class="form-control" />
+                    <input type="hidden" name="UserMasterAutoId"  asp-for="UserMasterAutoId"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>DOB</label>
+                    <input type="date" name="DOB" class="form-control" readonly="@allowEdit" asp-for="DOB"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Date Of Join</label>
+                    <input type="date" name="DateOfJoin" class="form-control" readonly="@allowEdit" asp-for="DateOfJoin"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>User Id</label>
+                    <input type="text" name="UserId" class="form-control"readonly="@allowEdit" asp-for="UserId"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Reference Auto Id</label>
+                    <input type="number" name="ReferenceAutoId" class="form-control" readonly="@allowEdit" asp-for="ReferenceAutoId"/>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label>DH Status</label>
+                    <input type="text" name="DHStatus" class="form-control" readonly="@allowEdit" asp-for="DHStatus"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Phone No</label>
+                    <input type="text" name="PhoneNo" class="form-control" readonly="@allowEdit" asp-for="PhoneNo"/>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Email</label>
+                    <input type="email" name="Email" class="form-control" readonly="@allowEdit" asp-for="Email"/>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label>Address</label>
+                    <textarea name="Address" class="form-control" readonly="@allowEdit" asp-for="Address"></textarea>
+                </div>
+
+            </div>
+            @if(isCreate)
+            {
+                <button type="button" class="btn btn-primary w-25" onclick="SaveForm()"">Save</button>
+            }
+            else if(Model.UserMasterAutoId >0)
+            {
+                <button type="button" class="btn btn-primary w-25" onclick="SaveForm()"">Update</button>
+            }
+            <button type="button" class="btn btn-primary w-25" >Go To Index</button>
+        </form>
+    </div>
+</div>
+
+<!-- jQuery + Validation -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+<script>
+    function SaveForm()
+    {
+        const validateArr = ["Name","DOB","DateOfJoin","UserId","PhoneNo","Email"]
+        let validForm = true;
+        debugger;
+        $(this).prop("disabled", true);
+        for (let i = 0; i < validateArr.length; i++) {
+
+            let fieldName = validateArr[i];
+            // Select ANY element with same name
+            let elements = $(`[name='${fieldName}']`);
+            elements.removeClass("input-error");
+            let isValid = true;
+            // 👉 If Radio
+            if (elements.attr("type") === "radio") {
+                if ($(`[name='${fieldName}']:checked`).length === 0) {
+                    isValid = false;
+                }
+            }
+            // 👉 If Checkbox
+            else if (elements.attr("type") === "checkbox") {
+                if ($(`[name='${fieldName}']:checked`).length === 0) {
+                    isValid = false;
+                }
+            }
+            // 👉 Textbox / Textarea / Select
+            else {
+                let value = elements.val();
+                if (!value || value.trim() === "") {
+                    isValid = false;
+                }
+            }
+
+            if (!isValid) {
+                elements.addClass("input-error");
+                $("#Errormsg").html(`Please enter/select ${fieldName}`);
+                validForm = false;
+                break;
+            }
+        }
+
+        if(validForm)
+        {
+            $.ajax({
+                url: '/UserMaster/CreateUpdate',
+                type: 'POST',
+                data: $("#userForm").serialize(),
+                success: function (response) {
+                    alert("Saved Successfully!");
+                    $("#userForm")[0].reset();
+                    $(this).prop("disabled", false);
+                },
+                error: function () {
+                    alert("Error occurred!");
+                    $(this).prop("disabled", false);
+                }
+            });
+        }
+    }
+    
+</script>
